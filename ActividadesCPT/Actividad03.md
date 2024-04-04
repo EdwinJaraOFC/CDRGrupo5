@@ -21,12 +21,15 @@ d. Haz clic en la PDU y observa la siguiente información de las pestañas Model
 e. Haz clic en Capture / Forward (la flecha derecha seguida de una barra vertical) para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
 
 Formato de hoja de cálculo de ejemplo
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/23c23cb3-7020-4f17-9505-127808b42830)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/23c23cb3-7020-4f17-9505-127808b42830" alt="Grupo trabajando"  />
+</p>
 
 172.16.31.5
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ab6ec817-847c-41cd-8662-b5233495fb69" alt="Grupo trabajando" />
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ab6ec817-847c-41cd-8662-b5233495fb69)
 
 Switch1
 
