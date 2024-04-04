@@ -3,7 +3,7 @@
   <h1 align="center">Actividad 3: Identificación de direcciones MAC y direcciones IP</h1>
 </p>
 
-Recopila información del PDU para la comunicación de red local
+## Recopila información del PDU para la comunicación de red local
 
 1. Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 172.16.31.2.
 
@@ -53,7 +53,7 @@ Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/aa81520e-5f11-4af1-8c03-9131da8c1a5e)
 
-Recopila información del PDU para la comunicación de red remota
+## Recopila información del PDU para la comunicación de red remota
 
 1. Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 10.10.10.2. 
 a. Haz click en 172.16.31.5 y abra el Command Prompt.
@@ -100,7 +100,7 @@ Punto de acceso
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/8f492934-35b0-4ae7-88b6-ef357b4d3f94)
 
-Preguntas
+## Preguntas
 Responde las siguientes preguntas relacionadas con los datos capturados:
 1. ¿Se utilizaron diferentes tipos de cables / medios para conectar dispositivos?
 -	Sí, se utilizaron 3 tipos de cables: Inalámbrico, de cobre y de fibra óptica.
