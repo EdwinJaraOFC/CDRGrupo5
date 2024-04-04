@@ -18,13 +18,16 @@
 ## Paso 2: Verifique la configuración y la conectividad de la PC.
 1. Desde PC-A, haga clic y Desktop seleccione Command Prompt.<br>
 2. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.<br>
-**3. Escriba ping 192.168.1.11 y presione Intro. ¿Fueron correctos los resultados del ping?** SÍ<br>
-**4. Repite los pasos anteriores para PC-B ¿Fueron correctos los resultados del ping?** SÍ<br>
+**3. Escriba ping 192.168.1.11 y presione Intro. ¿Fueron correctos los resultados del ping?** Sí, se enviaron y recibieron los paquetes de manera correcta<br>
+**4. Repite los pasos anteriores para PC-B ¿Fueron correctos los resultados del ping?** Sí, igualmente, se recibieron los mensajes en un tiempo adecuado <br>
 
 ## PC-A: Command Prompt
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a03215fa-77fb-4156-a139-a908e42998b0" alt="Grupo trabajando" />
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a03215fa-77fb-4156-a139-a908e42998b0)
 
 ## PC-B: Command Prompt
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/75730581-42d7-4f7f-a8c2-3ef5f4f5ca2d)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/75730581-42d7-4f7f-a8c2-3ef5f4f5ca2d" alt="Grupo trabajando" />
+</p>
