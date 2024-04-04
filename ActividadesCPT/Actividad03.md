@@ -20,31 +20,31 @@ d. Haz clic en la PDU y observa la siguiente información de las pestañas Model
 
 e. Haz clic en Capture / Forward (la flecha derecha seguida de una barra vertical) para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
 
-Formato de hoja de cálculo de ejemplo
+### Formato de hoja de cálculo de ejemplo
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/23c23cb3-7020-4f17-9505-127808b42830" alt="Grupo trabajando"  />
 </p>
 
-172.16.31.5
+### 172.16.31.5
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ab6ec817-847c-41cd-8662-b5233495fb69" alt="Grupo trabajando" />
 </p>
 
-
-Switch1
+### Switch1
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ecf3dc79-6835-432b-8093-5bd62fd9c039)
 
-Concentrador (HUB)
+### Concentrador (HUB)
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1d280728-e507-416e-b59e-35b650a03a95)
 
-172.16.31.2
+### 172.16.31.2
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bf0351d6-947e-439e-914b-591840cd16dd)
 
 ### Reunir información adicional de la PDU de otros ping.
 Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
+
 - Ping de 172.16.31.2 a 172.16.31.3
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/be08a1e1-c032-44e7-b474-5fad2977f846)
