@@ -1,4 +1,4 @@
-# 1 Realiza un configuracion basica de S1 y S2
+# 1 Realiza un configuracion basica de S1 y S2.
 ##  Colocar la contraseña de consola (checha)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2e6868c2-a0dc-4ab6-ac34-3fb7bf36aa5f)
 ## Colocar la contraseña al Exec privilegiado (jeka)
