@@ -1,4 +1,7 @@
-# Actividad 3: Identificación de direcciones MAC y direcciones IP
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Actividad 3: Identificación de direcciones MAC y direcciones IP</h1>
+</p>
 
 Recopila información del PDU para la comunicación de red local
 
