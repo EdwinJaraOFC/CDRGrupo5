@@ -1,4 +1,7 @@
-# Actividad 1: Creación de una red simple
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Actividad 1: Creación de una red simple</h1>
+</p>
 
 ## Paso 1: Construye la red simple configurando cada uno de los dispositivos dados.
 a. En la interfaz de Packet Tracer selecciona los dispositivos dados: Switch 2960.<br>
