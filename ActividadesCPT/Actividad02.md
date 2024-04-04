@@ -12,6 +12,6 @@
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/ba03f5f3-5c04-4888-b285-3b7020c7e829)
 ### Pregunta
 Prueba de conectividad con los switch¿Se tuvo exito?
-- No, ya que todavia no se le ha asignado una IP a los switch
+- No, ya que todavia no se le ha asignado una IP a los switch.
 # 3 Configura la interfaz de administración de switches
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/becb1a93-47f2-495e-9303-2d28511c3a2b)
