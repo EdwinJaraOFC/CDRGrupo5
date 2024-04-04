@@ -7,10 +7,10 @@
 
 ### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 172.16.31.2.
 
-a. Haz clic en 172.16.31.5 y abra el Command Prompt.
-b. Introduce el comando ping 172.16.31.2.
-c. Cambia al modo de simulación y repita el comando ping 172.16.31.2. Aparece una PDU junto a 172.16.31.5.
-d. Haz clic en la PDU y observa la siguiente información de las pestañas Modelo OSI l y Capa de PDU saliente:
+1. Haz clic en 172.16.31.5 y abra el Command Prompt.
+2. Introduce el comando ping 172.16.31.2.
+3. Cambia al modo de simulación y repita el comando ping 172.16.31.2. Aparece una PDU junto a 172.16.31.5.
+4. Haz clic en la PDU y observa la siguiente información de las pestañas Modelo OSI l y Capa de PDU saliente:
 
 ●	Destination MAC Address: 000C:85CC:1DA7
 ●	Source MAC Address: 00D0:D311:C788
@@ -18,7 +18,7 @@ d. Haz clic en la PDU y observa la siguiente información de las pestañas Model
 ●	Destination IP Address: 172.16.31.2
 ●	At Device: 172.16.31.5
 
-e. Haz clic en Capture / Forward (la flecha derecha seguida de una barra vertical) para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
+5. Haz clic en Capture / Forward (la flecha derecha seguida de una barra vertical) para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
 
 ### Formato de hoja de cálculo de ejemplo
 <p align= "center">
