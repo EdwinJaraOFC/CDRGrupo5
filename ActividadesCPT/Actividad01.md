@@ -10,14 +10,16 @@
 4. Selecciona el ícono Rayo de conexiones y escoge Copper Straight-Through.<br>
 5. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-A. Conecte el otro extremo del cable a F0/6 en S1. Después de conectar la PC al switch, la luz de F0/6 debería tornarse ámbar y luego verde.<br>
 6. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-B. Conecte el otro extremo del cable a F0/1 en S1. Después de conectar la PC al switch, la luz de F0/1 debería tornarse ámbar y luego verde.<br>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bb6b0c33-0db4-4149-afbb-e82ca78e8524" alt="Grupo trabajando" />
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bb6b0c33-0db4-4149-afbb-e82ca78e8524)
 
 ## Paso 2: Verifique la configuración y la conectividad de la PC.
 1. Desde PC-A, haga clic y Desktop seleccione Command Prompt.<br>
 2. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.<br>
-3. Escriba ping 192.168.1.11 y presione Intro. ¿Fueron correctos los resultados del ping? SÍ<br>
-4. Repite los pasos anteriores para PC-B ¿Fueron correctos los resultados del ping? SÍ<br>
+**3. Escriba ping 192.168.1.11 y presione Intro. ¿Fueron correctos los resultados del ping?** SÍ<br>
+**4. Repite los pasos anteriores para PC-B ¿Fueron correctos los resultados del ping?** SÍ<br>
 
 ## PC-A: Command Prompt
 
