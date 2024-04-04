@@ -11,9 +11,7 @@
 5. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-A. Conecte el otro extremo del cable a F0/6 en S1. Después de conectar la PC al switch, la luz de F0/6 debería tornarse ámbar y luego verde.<br>
 6. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-B. Conecte el otro extremo del cable a F0/1 en S1. Después de conectar la PC al switch, la luz de F0/1 debería tornarse ámbar y luego verde.<br>
 
-<p align="center">
-  ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bb6b0c33-0db4-4149-afbb-e82ca78e8524)
-</p>
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bb6b0c33-0db4-4149-afbb-e82ca78e8524)
 
 ## Paso 2: Verifique la configuración y la conectividad de la PC.
 1. Desde PC-A, haga clic y Desktop seleccione Command Prompt.<br>
