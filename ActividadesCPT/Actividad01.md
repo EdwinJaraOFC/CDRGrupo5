@@ -4,12 +4,12 @@
 </p>
 
 ## Paso 1: Construye la red simple configurando cada uno de los dispositivos dados.
-a. En la interfaz de Packet Tracer selecciona los dispositivos dados: Switch 2960.<br>
-b. Click en el dispositivo y en la pestaña Config, Display Name, Hostname Cambia el nombre a S1.<br>
-c. Realiza el mismo procedimiento para los otros dispositivos. Llamalos PC-A, PC-B respectivamente<br>
-d. Selecciona el ícono Rayo de conexiones y escoge Copper Straight-Through.<br>
-e. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-A. Conecte el otro extremo del cable a F0/6 en S1. Después de conectar la PC al switch, la luz de F0/6 debería tornarse ámbar y luego verde.<br>
-f. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-B. Conecte el otro extremo del cable a F0/1 en S1. Después de conectar la PC al switch, la luz de F0/1 debería tornarse ámbar y luego verde.<br>
+1. En la interfaz de Packet Tracer selecciona los dispositivos dados: Switch 2960.<br>
+2. Click en el dispositivo y en la pestaña Config, Display Name, Hostname Cambia el nombre a S1.<br>
+3. Realiza el mismo procedimiento para los otros dispositivos. Llamalos PC-A, PC-B respectivamente<br>
+4. Selecciona el ícono Rayo de conexiones y escoge Copper Straight-Through.<br>
+5. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-A. Conecte el otro extremo del cable a F0/6 en S1. Después de conectar la PC al switch, la luz de F0/6 debería tornarse ámbar y luego verde.<br>
+6. Conecte un extremo de un cable Ethernet al puerto de NIC en PC-B. Conecte el otro extremo del cable a F0/1 en S1. Después de conectar la PC al switch, la luz de F0/1 debería tornarse ámbar y luego verde.<br>
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bb6b0c33-0db4-4149-afbb-e82ca78e8524)
 
