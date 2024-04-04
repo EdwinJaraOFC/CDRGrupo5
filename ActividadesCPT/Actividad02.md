@@ -18,6 +18,7 @@ Prueba de conectividad con los switch¿Se tuvo exito?
 ## S1
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/becb1a93-47f2-495e-9303-2d28511c3a2b)
 ## S2
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/5e0a1448-44c9-484d-b4a4-fa76a03025c9)
 
 ### Pregunta
 ¿Por que se debe introducir el comando no shutdown?
