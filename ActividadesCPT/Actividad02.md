@@ -18,3 +18,5 @@ Prueba de conectividad con los switch¿Se tuvo exito?
 ### Pregunta
 ¿Por que se debe introducir el comando no shutdown?
 - Sirve para activar los puetos del switch.
+## Verificacion de la conectividad de la red 
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/0f93a631-19cd-470b-a0ba-6bd4e1c04cf2)
