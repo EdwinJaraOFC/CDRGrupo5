@@ -102,44 +102,44 @@ Punto de acceso
 
 ## Preguntas
 Responde las siguientes preguntas relacionadas con los datos capturados:
-1. ¿Se utilizaron diferentes tipos de cables / medios para conectar dispositivos?
+1. **¿Se utilizaron diferentes tipos de cables / medios para conectar dispositivos?**
 -	Sí, se utilizaron 3 tipos de cables: Inalámbrico, de cobre y de fibra óptica.
-2. ¿Los cables cambiaron el manejo de la PDU de alguna manera?
+2. **¿Los cables cambiaron el manejo de la PDU de alguna manera?**
 -	No, los cables solo trabajan a nivel de la capa 1.
-3. ¿El hub perdió parte de la información que recibió?
+3. **¿El hub perdió parte de la información que recibió?**
 -	No.
-4. ¿Qué hace el hub con las direcciones MAC y las direcciones IP?
+4. **¿Qué hace el hub con las direcciones MAC y las direcciones IP?**
 -	Nada, el HUB solo reenvía hacia todos sus puertos la trama que se envía.
-5. ¿El punto de acceso inalámbrico hizo algo con la información que se le entregó?
+5. **¿El punto de acceso inalámbrico hizo algo con la información que se le entregó?**
 -	El punto de acceso inalámbrico vuelve a empaquetar la trama para que pueda viajar por el medio (aire).
-6. ¿Se perdió alguna dirección MAC o IP durante la transferencia inalámbrica?
+6. **¿Se perdió alguna dirección MAC o IP durante la transferencia inalámbrica?**
 -	No.
-7. ¿Cuál fue la capa OSI más alta que utilizaron el hub y el punto de acceso?
+7. **¿Cuál fue la capa OSI más alta que utilizaron el hub y el punto de acceso?**
 -	El hub y el punto de acceso solo trabajan a nivel de capa 1.
-8. ¿El hub o el punto de acceso reprodujeron en algún momento una PDU rechazada con una “X” de color rojo?
+8. **¿El hub o el punto de acceso reprodujeron en algún momento una PDU rechazada con una “X” de color rojo?**
 -	Sí, ya que al reenviar a todos los puertos, solo uno es el destino y a los demás los rechaza.
-9. Al examinar la ficha PDU Details (Detalles de PDU), ¿qué dirección MAC aparecía primero, la de origen o la de destino?
+9. **Al examinar la ficha PDU Details (Detalles de PDU), ¿qué dirección MAC aparecía primero, la de origen o la de destino?**
 -	Aparece primero la de destino.
-10. ¿Por qué las direcciones MAC aparecen en este orden?
+10. **¿Por qué las direcciones MAC aparecen en este orden?**
 -	Porque si se conoce primero la dirección MAC de destino, el dispositivo puede reenviar la trama a una dirección MAC más rápidamente.
-11. ¿Había un patrón para el direccionamiento MAC en la simulación?
+11. **¿Había un patrón para el direccionamiento MAC en la simulación?**
 -	No.
-12. ¿Los switches reprodujeron en algún momento una PDU rechazada con una “X” de color rojo?
+12. **¿Los switches reprodujeron en algún momento una PDU rechazada con una “X” de color rojo?**
 -	Los switches no, ya que estos solo reenvían las tramas al destino requerido.
-13. Cada vez que se enviaba la PDU entre las redes 10 y 172, había un punto donde las direcciones MAC cambiaban repentinamente. ¿Dónde ocurrió eso?
+13. **Cada vez que se enviaba la PDU entre las redes 10 y 172, había un punto donde las direcciones MAC cambiaban repentinamente. ¿Dónde ocurrió eso?**
 -	Sí, esto ocurrió en el router.
-14. ¿Qué dispositivo usa direcciones MAC que comienzan con 00D0: BA?
+14. **¿Qué dispositivo usa direcciones MAC que comienzan con 00D0: BA?**
 -	El router.
-15. ¿A qué dispositivos pertenecían las otras direcciones MAC?
+15. **¿A qué dispositivos pertenecían las otras direcciones MAC?**
 -	Al emisor y al receptor, estos pueden ser las computadoras, HUB, switches y puntos de acceso.
-16. ¿Las direcciones IPv4 de envío y recepción cambiaron los campos en alguna de las PDU?
+16. **¿Las direcciones IPv4 de envío y recepción cambiaron los campos en alguna de las PDU?**
 -	No.
-17. Cuando sigue la respuesta a un ping, a veces llamado pong, ¿ve el cambio de envío y recepción de direcciones IPv4?
+17. **Cuando sigue la respuesta a un ping, a veces llamado pong, ¿ve el cambio de envío y recepción de direcciones IPv4?**
 -	Sí se logra ver el cambio.
-18. ¿Cuál es el patrón para el direccionamiento IPv4 utilizado en esta simulación?
+18. **¿Cuál es el patrón para el direccionamiento IPv4 utilizado en esta simulación?**
 -	Cada puerto o interfaz del router debe manejar una dirección IP diferente, y cada dispositivo que está dentro de esta red que se dirigen a una interfaz no deben superponerse.
-19. ¿Por qué es necesario asignar diferentes redes IP a los diferentes puertos de un router?
+19. **¿Por qué es necesario asignar diferentes redes IP a los diferentes puertos de un router?**
 -	Para poder interconectar diferentes redes.
-20. Si esta simulación se configura con IPv6 en lugar de IPv4, ¿cuál sería la diferencia?
+20. **Si esta simulación se configura con IPv6 en lugar de IPv4, ¿cuál sería la diferencia?**
 -	Solo se reemplazarían las direcciones IPv4 con las IPv6, en pocas palabras solo cambiaría el formato, lo demás seguiría igual.
 
