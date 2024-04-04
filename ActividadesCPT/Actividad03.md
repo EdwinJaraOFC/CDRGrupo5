@@ -5,7 +5,7 @@
 
 ## Recopila información del PDU para la comunicación de red local
 
-1. Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 172.16.31.2.
+### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 172.16.31.2.
 
 a. Haz clic en 172.16.31.5 y abra el Command Prompt.
 b. Introduce el comando ping 172.16.31.2.
@@ -43,7 +43,7 @@ Concentrador (HUB)
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bf0351d6-947e-439e-914b-591840cd16dd)
 
-2. Reunir información adicional de la PDU de otros ping.
+### Reunir información adicional de la PDU de otros ping.
 Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 - Ping de 172.16.31.2 a 172.16.31.3
 
@@ -55,7 +55,7 @@ Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 
 ## Recopila información del PDU para la comunicación de red remota
 
-1. Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 10.10.10.2. 
+### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 10.10.10.2. 
 a. Haz click en 172.16.31.5 y abra el Command Prompt.
 b. Introduce el comando ping 10.10.10.2.
 c. Cambia al modo de simulación y repita el comando ping 10.10.10.2. Aparece una PDU junto a 172.16.31.5.
