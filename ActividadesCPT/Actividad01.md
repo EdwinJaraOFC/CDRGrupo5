@@ -14,10 +14,10 @@
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bb6b0c33-0db4-4149-afbb-e82ca78e8524)
 
 ## Paso 2: Verifique la configuración y la conectividad de la PC.
-a. Desde PC-A, haga clic y Desktop seleccione Command Prompt.<br>
-b. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.<br>
-c. Escriba ping 192.168.1.11 y presione Intro. ¿Fueron correctos los resultados del ping? __________SÍ____________<br>
-d. Repite los pasos anteriores para PC-B ¿Fueron correctos los resultados del ping? __________SÍ__________<br>
+1. Desde PC-A, haga clic y Desktop seleccione Command Prompt.<br>
+2. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.<br>
+3. Escriba ping 192.168.1.11 y presione Intro. ¿Fueron correctos los resultados del ping? __________SÍ____________<br>
+4. Repite los pasos anteriores para PC-B ¿Fueron correctos los resultados del ping? __________SÍ__________<br>
 
 ## PC-A: Command Prompt
 
