@@ -5,7 +5,7 @@
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/3e898655-6fe9-4696-a539-fdf8e6a1cab9)
 ## Agregar el aviso MOTD.
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/758d9d20-af6a-458d-90f6-07961231d0d9)
-# 2 Configura las IP de las PC
+# 2 Configura las IP de las PC.
 ## PC1
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/42a57f63-4f65-46ef-b1ea-9069d2ac0516)
 ## PC2
