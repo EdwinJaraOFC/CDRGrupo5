@@ -1,6 +1,6 @@
 Actividad 1: Creación de una red Simple
 
-# ACTIVIDAD 1  -  Grupo 5  -  Comunicacion de datos y redes 
+# Actividad 1: Creación de una red simple
 ### Esquemático de la conexion entre PC's y el Switch
 ![image](https://github.com/JosueFlorian17/Comunicacion_de_datos_y_redes-2024/assets/150297452/993dcc8c-87b5-4a6c-9248-5b8f015d429c)
 <br>
