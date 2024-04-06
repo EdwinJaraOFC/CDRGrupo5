@@ -5,6 +5,7 @@
 
 # 1 Genera tráfico de red en modo de simulación y vea multiplexación
 
+![Uploading image.png…]()
 
 ## Preguta: 
 ### ¿Como se llama esto?
