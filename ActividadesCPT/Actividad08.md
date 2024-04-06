@@ -81,13 +81,14 @@ para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52)
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
-
+- Porque primero se debe establecer una coneccion TCP entre el multiserver y el cliente  para que haci el trafico HTTP pueda comenzar.
 5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic enOutbound
 PDU Details y desplácese hacia abajo hasta la segunda sección.
 
 **¿Cómo se rotula la sección?**
+TCP
 **¿Se consideran confiables estas comunicaciones?**
-
+SI
 Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
 
 Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala
