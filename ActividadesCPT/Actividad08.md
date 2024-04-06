@@ -22,18 +22,18 @@ Pregunta:
 -¿Cuál es el valor en el campo de bandera?
 - Cierra la PDU y haz clic en Capture/Forward hasta que una PDU vuelva a FTP Client con
 una marca de verificación.
-f. Cierra el sobre de PDU y seleccione Inbound PDU Details.
-Pregunta:
-¿En qué cambiaron los números de puerto y de secuencia?
-Escriba sus respuestas aquí.
-g. Haz clic en la ficha de detalles de la PDU saliente.
-Pregunta:
-¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores?
-Escriba sus respuestas aquí.
-h. Cierra la PDU y haz clic en Capture/Forward hasta que una segunda PDU vuelva a FTP
+- Cierra el sobre de PDU y seleccione Inbound PDU Details.
+-Pregunta:
+   -¿En qué cambiaron los números de puerto y de secuencia?
+
+- Haz clic en la ficha de detalles de la PDU saliente.
+-Pregunta:
+-¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores?
+
+- Cierra la PDU y haz clic en Capture/Forward hasta que una segunda PDU vuelva a FTP
 Client. La PDU es de un color diferente.
-i. Abre la PDU y selecciona Inbound PDU Details. Desplázate hasta después de la sección
+- Abre la PDU y selecciona Inbound PDU Details. Desplázate hasta después de la sección
 TCP.
-Pregunta:
-¿Cuál es el mensaje del servidor?
+-Pregunta:
+- ¿Cuál es el mensaje del servidor?
 
