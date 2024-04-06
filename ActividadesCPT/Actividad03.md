@@ -3,20 +3,20 @@
   <h1 align="center">Actividad 3: Identificación de direcciones MAC y direcciones IP</h1>
 </p>
 
+## Tabla de direccionamiento
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/23c23cb3-7020-4f17-9505-127808b42830" alt="Grupo trabajando"  />
+</p>
+
 ## Paso 1: Recopila información del PDU para la comunicación de red local
 
 ### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 172.16.31.2.
 
-1. Haz clic en 172.16.31.5 y abra el Command Prompt.
-2. Introduce el comando ping 172.16.31.2.
-3. Cambia al modo de simulación y repita el comando ping 172.16.31.2. Aparece una PDU junto a 172.16.31.5.
-4. Haz clic en la PDU y observa la siguiente información de las pestañas Modelo OSI l y Capa de PDU saliente:<br>- Destination MAC Address: 000C:85CC:1DA7<br>- Source MAC Address: 00D0:D311:C788<br>- Source IP Address:172.16.31.5<br>- Destination IP Address: 172.16.31.2<br>- At Device: 172.16.31.5
-5. Haz clic en Capture / Forward (la flecha derecha seguida de una barra vertical) para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
-
-### Formato de hoja de cálculo de ejemplo
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/23c23cb3-7020-4f17-9505-127808b42830" alt="Grupo trabajando"  />
-</p>
+1. Haz clic en **172.16.31.5** y abra el **Command Prompt.**
+2. Introduce el comando **ping 172.16.31.2.**
+3. Cambia al modo de simulación y repita el comando **ping 172.16.31.2.** Aparece una PDU junto a **172.16.31.5.**
+4. Haz clic en la PDU y observa la siguiente información de las pestañas **Modelo OSI I** y **Capa de PDU saliente:** <br>- Destination MAC Address: 000C:85CC:1DA7<br>- Source MAC Address: 00D0:D311:C788<br>- Source IP Address:172.16.31.5<br>- Destination IP Address: 172.16.31.2<br>- At Device: 172.16.31.5
+5. Haz clic en **Capture / Forward (la flecha derecha seguida de una barra vertical)** para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
 
 ### 172.16.31.5
 <p align= "center">
@@ -39,31 +39,23 @@
 Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 
 - Ping de 172.16.31.2 a 172.16.31.3
-
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/be08a1e1-c032-44e7-b474-5fad2977f846)
 
 - Ping de 172.16.31.4 a 172.16.31.5
-
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/aa81520e-5f11-4af1-8c03-9131da8c1a5e)
 
 ## Paso 2: Recopila información del PDU para la comunicación de red remota
 
 ### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 10.10.10.2. 
-a. Haz click en 172.16.31.5 y abra el Command Prompt.
-b. Introduce el comando ping 10.10.10.2.
-c. Cambia al modo de simulación y repita el comando ping 10.10.10.2. Aparece una PDU junto a 172.16.31.5.
-d. Haz clic en la PDU y observe la siguiente información en la ficha Outbound PDU Layer (Capa de PDU saliente):
-- Destination MAC Address: 00D0:BA8E:741A<br>
-- Source MAC Address: 00D0:D311:C788<br>
-- Source IP Address: 172.16.31.5<br>
-- Destination IP Address: 10.10.10.2<br>
-- At Device: 172.16.31.5
+1. Haz click en 172.16.31.5 y abra el Command Prompt.
+2. Introduce el comando ping 10.10.10.2.
+3. Cambia al modo de simulación y repita el comando ping 10.10.10.2. Aparece una PDU junto a 172.16.31.5.
+4. Haz clic en la PDU y observe la siguiente información en la ficha Outbound PDU Layer (Capa de PDU saliente):<br>- Destination MAC Address: 00D0:BA8E:741A<br>- Source MAC Address: 00D0:D311:C788<br>- Source IP Address: 172.16.31.5<br>- Destination IP Address: 10.10.10.2<br>- At Device: 172.16.31.5
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a31f8b70-f606-4c1c-a5df-24a7d92ac239)
 
-Pregunta:
-¿Qué dispositivo tiene el MAC de destino que se muestra?
--	El Router
+**¿Qué dispositivo tiene el MAC de destino que se muestra?**
+- El Router
 
 e. Haz clic en Capture / Forward (la flecha derecha seguida de una barra vertical) para mover la PDU al siguiente dispositivo. Reúne la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino. Registra la información de la PDU que recopiló del ping 172.16.31.5 a 10.10.10.2 en una hoja de cálculo utilizando un formato como la tabla de muestra que se muestra a continuación: 
 
