@@ -3,7 +3,7 @@
   <h1 align="center">Actividad 8: Comunicaciones de TCP y UDP</h1>
 </p>
 
-Genera tráfico de red en modo de simulación y vea multiplexación
+## Genera tráfico de red en modo de simulación y vea multiplexación
 
 1. Genera tráfico para completar las tablas del protocolo de resolución de direcciones (ARP)
 Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve en la simulación.
