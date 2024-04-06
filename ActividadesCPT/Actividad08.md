@@ -60,7 +60,7 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 2. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
 **¿Cómo se llama esto?**
-
+- Se llama multiplexacion, esto es trasnmitir varios datos por un mismo medio uno por uno.
 Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. **¿Cuál es el significado de los diferentes colores?**
 
 
