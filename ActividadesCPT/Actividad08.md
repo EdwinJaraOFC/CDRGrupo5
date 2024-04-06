@@ -47,19 +47,15 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 1. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch. 
 2. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
-¿Cómo se llama esto?
+**¿Cómo se llama esto?**
 
-Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?
-
-
-# 1 Genera tráfico de red en modo de simulación y vea multiplexación
+Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. **¿Cuál es el significado de los diferentes colores?**
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/318a4273-52b3-4c68-9a34-609a1911b937)
 
 ## Preguta: 
 ### ¿Como se llama esto?
-
 
 
 # 2 Examinar la funcionalidad de los protocolos TCP y UDP
