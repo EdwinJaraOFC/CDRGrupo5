@@ -3,7 +3,7 @@
   <h1 align="center">Actividad 8: Comunicaciones de TCP y UDP</h1>
 </p>
 
-## Genera tráfico de red en modo de simulación y vea multiplexación
+## Paso 1: Genera tráfico de red en modo de simulación y vea multiplexación
 
 ### Genera tráfico para completar las tablas del protocolo de resolución de direcciones (ARP)
 Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve en la simulación.
@@ -63,9 +63,54 @@ Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. *
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/318a4273-52b3-4c68-9a34-609a1911b937)
 
-## Examinar la funcionalidad de los protocolos TCP y UDP
- 
-### 3 Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
+## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
+
+### Examinar el tráfico HTTP cuando los clientes se comunican con el servidor
+1. Haz clic en Reset Simulation (Restablecer simulación).
+2. Filtrar el tráfico que se muestra actualmente sólo a las PDU HTTP y TCP . Para filtrar el
+tráfico que se muestra actualmente:
+- Haz clic en Edit Filters y alterna el botón Show All/None .
+- Selecciona HTTP y TCP. Haz clic en la «x» roja en la esquina superior derecha del
+cuadro Editar filtros para cerrarla. Los eventos visibles ahora deberían mostrar solo las
+PDU HTTP y TCP .
+3. Abre el navegador en HTTP Client e ingresa 192.168.1.254 en el campo URL. Haz clic en Ir
+para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
+4. Haz clic en Capturar/Reenviar hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
+
+**¿Por qué tardó tanto en aparecer la PDU HTTP?**
+
+5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic enOutbound
+PDU Details y desplácese hacia abajo hasta la segunda sección.
+
+**¿Cómo se rotula la sección?**
+**¿Se consideran confiables estas comunicaciones?**
+
+Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
+
+Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala
+derecha de la «b» representan los indicadores TCP que se establecen para esta etapa de la
+conversación de datos. Cada uno de los seis lugares corresponde a una bandera. La presencia de un
+«1» en cualquier lugar indica que el indicador está establecido. Se puede configurar más de una
+bandera a la vez. Los valores de las banderas se muestran a continuación.
+
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b16ab445-be18-44a9-b30b-44529dedacd0)
+
+¿Qué indicadores TCP se establecen en esta PDU?
+
+Cierra la PDU y Haz clic en Capture/Forward hasta que una PDU con una marca de verificación
+regrese al HTTP Client.
+Cierra el sobre de PDU y seleccione Inbound PDU Details. ¿En qué cambiaron los números de
+puerto y de secuencia? Haz clic en la PDU HTTP que HTTP Client ha preparado para enviar a
+MultiServer. Este es el comienzo de la comunicación HTTP. Haz clic en este segundo sobre de PDU
+y seleccione Outbound PDU Details (Detalles de PDU saliente).
+Pregunta:
+¿Qué información aparece ahora en la sección TCP? ¿En qué se diferencian los números de puerto
+y de secuencia con respecto a las dos PDU anteriores?
+
+Restablece la simulación.
+
+
+### Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
 - Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
 ingresando ftp 192.168.1.254.
 - En el Panel de simulación, cambia Edit Filters para mostrar solo FTP y TCP.
