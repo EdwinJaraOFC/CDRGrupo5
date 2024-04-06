@@ -22,8 +22,8 @@
 ## Paso 2: Verifique la configuración y la conectividad de la PC.
 1. Desde PC-A, haga clic y Desktop seleccione **Command Prompt.**
 2. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.
-3. Escriba ping 192.168.1.11 y presione Intro. **¿Fueron correctos los resultados del ping?** <br>Sí, se enviaron y recibieron los paquetes de manera correcta.
-4. Repite los pasos anteriores para PC-B **¿Fueron correctos los resultados del ping?** <br>Sí, igualmente, se recibieron los mensajes en un tiempo adecuado.
+3. Escriba ping 192.168.1.11 y presione Intro. **¿Fueron correctos los resultados del ping?** <br>- Sí, se enviaron y recibieron los paquetes de manera correcta.
+4. Repite los pasos anteriores para PC-B **¿Fueron correctos los resultados del ping?** <br>- Sí, igualmente, se recibieron los mensajes en un tiempo adecuado.
 
 ## PC-A: Command Prompt
 <p align= "center">
