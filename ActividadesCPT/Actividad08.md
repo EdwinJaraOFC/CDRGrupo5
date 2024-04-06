@@ -78,6 +78,7 @@ PDU HTTP y TCP .
 3. Abre el navegador en HTTP Client e ingresa 192.168.1.254 en el campo URL. Haz clic en Ir
 para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 4. Haz clic en Capturar/Reenviar hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52)
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
 
