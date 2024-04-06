@@ -5,47 +5,47 @@
 
 ## Genera tráfico de red en modo de simulación y vea multiplexación
 
-1. Genera tráfico para completar las tablas del protocolo de resolución de direcciones (ARP)
+### Genera tráfico para completar las tablas del protocolo de resolución de direcciones (ARP)
 Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve en la simulación.
-a. Haz clic en MultiServer y luego haz click en Desktop tab > Command Prompt.
-b. Ingresa el comando ping -n 1 192.168.1.255. Está haciendo ping a la dirección broadcast de la LAN del cliente. La opción de comando enviará sólo una solicitud de ping en lugar de las cuatro habituales. Esto tomará unos segundos ya que cada dispositivo en la red responde a la solicitud de ping de MultiServer.
-c. Cierra la ventana MultiServer.
+1. Haz clic en MultiServer y luego haz click en Desktop tab > Command Prompt.
+2. Ingresa el comando ping -n 1 192.168.1.255. Está haciendo ping a la dirección broadcast de la LAN del cliente. La opción de comando enviará sólo una solicitud de ping en lugar de las cuatro habituales. Esto tomará unos segundos ya que cada dispositivo en la red responde a la solicitud de ping de MultiServer.
+3. Cierra la ventana MultiServer.
 
-2. Genera tráfico web (HTTP)
-a. Cambia a modo de simulación.
-b. Haz clic en Cliente HTTP y abre el Explorador Web desde el escritorio.
-c. En el campo URL, introduce 192.168.1.254 y haz clic en Go (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
-d. Minimiza, pero no cierres, la ventana de configuración de HTTP Client. 
+### Genera tráfico web (HTTP)
+1. Cambia a modo de simulación.
+2. Haz clic en Cliente HTTP y abre el Explorador Web desde el escritorio.
+3. En el campo URL, introduce 192.168.1.254 y haz clic en Go (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
+4. Minimiza, pero no cierres, la ventana de configuración de HTTP Client. 
 
-3. Genera tráfico FTP.
-a. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
-b. Introduce el comando ftp 192.168.1.254. Las PDU aparecerán en la ventana de simulación.
-c. Minimiza, pero no cierres, la ventana de configuración de FTP Client.
+### Genera tráfico FTP.
+1. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
+2. Introduce el comando ftp 192.168.1.254. Las PDU aparecerán en la ventana de simulación.
+3. Minimiza, pero no cierres, la ventana de configuración de FTP Client.
 
-4. Genera tráfico DNS.
-a. Haz clic en DNS Client y abra el Command Prompt
-b. Introduce el comando nslookup multiserver.pt.ptu. Aparecerá una PDU en la ventana de simulación.
-c. Minimiza, pero no cierre, la ventana de configuración de DNS Client. 
+### Genera tráfico DNS.
+1. Haz clic en DNS Client y abra el Command Prompt
+2. Introduce el comando nslookup multiserver.pt.ptu. Aparecerá una PDU en la ventana de simulación.
+3. Minimiza, pero no cierre, la ventana de configuración de DNS Client. 
 
-5. Genera tráfico de correo electrónico.
-a. Haz clic en E-Mail Client y abre la herramienta E Mail desde el escritorio.
-b. Haz clic en Compose (Redactar) y escribe la siguiente información:
-1) To: user@multiserver.pt.ptu
-2) Subject: Personalizar la línea de asunto
-3) E-Mail Body: personalizar el correo electrónico
-c. Haz clic en Send (Enviar).
-d. Minimiza, pero no cierres, la ventana de configuración de E-Mail Client. 
+### Genera tráfico de correo electrónico.
+1. Haz clic en E-Mail Client y abre la herramienta E Mail desde el escritorio.
+2. Haz clic en Compose (Redactar) y escribe la siguiente información:
+Paso 1) To: user@multiserver.pt.ptu
+Paso 2) Subject: Personalizar la línea de asunto
+Paso 3) E-Mail Body: personalizar el correo electrónico
+3. Haz clic en Send (Enviar).
+4. Minimiza, pero no cierres, la ventana de configuración de E-Mail Client. 
 
-6. Verifica que se haya generado tráfico y que esté preparado para la simulación.
+### Verifica que se haya generado tráfico y que esté preparado para la simulación.
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
 
-7. Examina la multiplexación a medida que el tráfico cruza la red.
+### Examina la multiplexación a medida que el tráfico cruza la red.
 Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para observar los diferentes protocolos que viajan por la red.
 
-Nota: El botón Capture/Forward ' >| ' es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
+**Nota:** El botón Capture/Forward ' >| ' es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
 
-a. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch. 
-b. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
+1. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch. 
+2. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
 ¿Cómo se llama esto?
 
