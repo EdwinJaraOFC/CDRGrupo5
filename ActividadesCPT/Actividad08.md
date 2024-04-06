@@ -90,6 +90,7 @@ PDU Details y desplácese hacia abajo hasta la segunda sección.
 - **¿Se consideran confiables estas comunicaciones?**
 - SI
 Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2aeeb869-a161-4601-aa46-41f6508b6d8a)
 
 Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala
 derecha de la «b» representan los indicadores TCP que se establecen para esta etapa de la
