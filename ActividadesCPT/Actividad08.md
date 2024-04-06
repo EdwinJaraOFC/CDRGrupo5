@@ -16,16 +16,22 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 2. Haz clic en Cliente HTTP y abre el Explorador Web desde el escritorio.
 3. En el campo URL, introduce 192.168.1.254 y haz clic en Go (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
 4. Minimiza, pero no cierres, la ventana de configuración de HTTP Client. 
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/085933e2-4924-4a16-9a3d-4adf6e0f4806)
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/e5d90be3-354b-4281-8a5d-99b50ec50df6)
 
 ### Genera tráfico FTP.
 1. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
 2. Introduce el comando ftp 192.168.1.254. Las PDU aparecerán en la ventana de simulación.
 3. Minimiza, pero no cierres, la ventana de configuración de FTP Client.
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/a93e3728-78f3-4f60-a480-da095956bfb5)
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/74ca1217-39d3-470e-bd57-e72b1697fe61)
 
 ### Genera tráfico DNS.
 1. Haz clic en DNS Client y abra el Command Prompt
 2. Introduce el comando nslookup multiserver.pt.ptu. Aparecerá una PDU en la ventana de simulación.
 3. Minimiza, pero no cierre, la ventana de configuración de DNS Client. 
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2bdeaa46-0ecf-4ad1-8581-ec3b80e60eb2)
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7555c3bd-a1e1-4043-b178-83747d397545)
 
 ### Genera tráfico de correo electrónico.
 1. Haz clic en E-Mail Client y abre la herramienta E Mail desde el escritorio.
@@ -35,9 +41,12 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 - E-Mail Body: personalizar el correo electrónico
 3. Haz clic en Send (Enviar).
 4. Minimiza, pero no cierres, la ventana de configuración de E-Mail Client. 
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/11c97a53-454f-438e-9e97-bd748d78ec39)
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/c1d524ae-be0a-4531-9df8-28ed20588e84)
 
 ### Verifica que se haya generado tráfico y que esté preparado para la simulación.
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7565f8cd-111c-4cb4-ba33-7e440348e226)
 
 ### Examina la multiplexación a medida que el tráfico cruza la red.
 Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para observar los diferentes protocolos que viajan por la red.
