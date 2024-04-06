@@ -61,8 +61,9 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 
 **¿Cómo se llama esto?**
 - Se llama multiplexacion, esto es trasnmitir varios datos por un mismo medio uno por uno.
-Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. **¿Cuál es el significado de los diferentes colores?**
-
+Aparece una variedad de PDU en la lista de eventos en el Panel de simulación.
+**¿Cuál es el significado de los diferentes colores?**
+- Los colores nos muestran los protocolos de cada PDU
 
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
 
