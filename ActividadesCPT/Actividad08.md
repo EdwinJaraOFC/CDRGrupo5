@@ -56,7 +56,7 @@ Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. *
 
 ## Examinar la funcionalidad de los protocolos TCP y UDP
  
-# 3 Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
+### 3 Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
 - Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
 ingresando ftp 192.168.1.254.
 - En el Panel de simulación, cambia Edit Filters para mostrar solo FTP y TCP.
@@ -86,7 +86,7 @@ TCP.
 -Pregunta:
 - ¿Cuál es el mensaje del servidor?
 - Haz clic en Reset Simulation (Restablecer simulación).
-# 4 Examina el tráfico DNS cuando los clientes se comunican con el servidor.
+### 4 Examina el tráfico DNS cuando los clientes se comunican con el servidor.
 - Repita los pasos de la Parte 1 para crear tráfico DNS.
 - En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
 DNS y UDP.
@@ -109,7 +109,7 @@ verificación regrese al DNS Client.
 - ¿En qué cambiaron los números de puerto y de secuencia?
 - Haz clic en Reset Simulation (Restablecer simulación).
 
-# 4 Examina el tráfico de correo electrónico cuando los clientes se comunican con el servidor
+### 4 Examina el tráfico de correo electrónico cuando los clientes se comunican con el servidor
 - Repite los pasos de la Parte 1 para enviar un correo electrónico a user@multiserver.pt.ptu.
 - En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
 POP3, SMTP y TCP.
