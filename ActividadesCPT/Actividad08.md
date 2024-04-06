@@ -1,3 +1,8 @@
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Actividad 8: Comunicaciones de TCP y UDP</h1>
+</p>
+
 # 1 Genera tráfico de red en modo de simulación y vea multiplexación
 
 
