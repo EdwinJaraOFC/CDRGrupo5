@@ -54,11 +54,7 @@ Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. *
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/318a4273-52b3-4c68-9a34-609a1911b937)
 
-## Preguta: 
-### ¿Como se llama esto?
-
-
-# 2 Examinar la funcionalidad de los protocolos TCP y UDP
+## Examinar la funcionalidad de los protocolos TCP y UDP
  
 # 3 Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
 - Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
