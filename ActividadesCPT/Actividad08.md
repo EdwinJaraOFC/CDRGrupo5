@@ -98,6 +98,7 @@ conversación de datos. Cada uno de los seis lugares corresponde a una bandera. 
 bandera a la vez. Los valores de las banderas se muestran a continuación.
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b16ab445-be18-44a9-b30b-44529dedacd0)
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/ab9f340b-3abc-4dd3-bbe7-1aea06987ab6)
 
 ¿Qué indicadores TCP se establecen en esta PDU?
 
