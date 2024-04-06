@@ -46,6 +46,7 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 
 ### Verifica que se haya generado tráfico y que esté preparado para la simulación.
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7565f8cd-111c-4cb4-ba33-7e440348e226)
 
 ### Examina la multiplexación a medida que el tráfico cruza la red.
@@ -62,8 +63,6 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 
 Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. **¿Cuál es el significado de los diferentes colores?**
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/318a4273-52b3-4c68-9a34-609a1911b937)
 
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
 
