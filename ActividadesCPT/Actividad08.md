@@ -5,7 +5,8 @@
 
 # 1 Genera tráfico de red en modo de simulación y vea multiplexación
 
-![Uploading image.png…]()
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/318a4273-52b3-4c68-9a34-609a1911b937)
 
 ## Preguta: 
 ### ¿Como se llama esto?
