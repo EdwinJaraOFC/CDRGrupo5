@@ -37,4 +37,26 @@ Client. La PDU es de un color diferente.
 TCP.
 -Pregunta:
 - ¿Cuál es el mensaje del servidor?
+- Haz clic en Reset Simulation (Restablecer simulación).
+# 4 Examina el tráfico DNS cuando los clientes se comunican con el servidor.
+- Repita los pasos de la Parte 1 para crear tráfico DNS.
+- En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
+DNS y UDP.
+- Haz clic en el sobre de PDU para abrirlo.
+- Mire los detalles del modelo OSI para la PDU saliente.
+- Pregunta:
+- ¿Qué es el protocolo de capa 4?
 
+- ¿Se consideran confiables estas comunicaciones?
+
+- Abra la ficha Detalles de PDU saliente y busque la sección UDP de los formatos de PDU.
+- Registre los valores de SRC PORT y DEST PORT .
+- Pregunta:
+- ¿Por qué no hay números de secuencia y reconocimiento?
+
+- Cierre la PDU y haz clic en Capture/Forward hasta que una PDU con una marca de
+verificación regrese al DNS Client.
+- Cierra el sobre de PDU y seleccione Inbound PDU Details.
+- Pregunta:
+- ¿En qué cambiaron los números de puerto y de secuencia?
+- Haz clic en Reset Simulation (Restablecer simulación).
