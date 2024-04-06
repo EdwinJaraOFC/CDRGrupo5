@@ -3,6 +3,55 @@
   <h1 align="center">Actividad 8: Comunicaciones de TCP y UDP</h1>
 </p>
 
+Genera tráfico de red en modo de simulación y vea multiplexación
+
+1. Genera tráfico para completar las tablas del protocolo de resolución de direcciones (ARP)
+Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve en la simulación.
+a. Haz clic en MultiServer y luego haz click en Desktop tab > Command Prompt.
+b. Ingresa el comando ping -n 1 192.168.1.255. Está haciendo ping a la dirección broadcast de la LAN del cliente. La opción de comando enviará sólo una solicitud de ping en lugar de las cuatro habituales. Esto tomará unos segundos ya que cada dispositivo en la red responde a la solicitud de ping de MultiServer.
+c. Cierra la ventana MultiServer.
+
+2. Genera tráfico web (HTTP)
+a. Cambia a modo de simulación.
+b. Haz clic en Cliente HTTP y abre el Explorador Web desde el escritorio.
+c. En el campo URL, introduce 192.168.1.254 y haz clic en Go (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
+d. Minimiza, pero no cierres, la ventana de configuración de HTTP Client. 
+
+3. Genera tráfico FTP.
+a. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
+b. Introduce el comando ftp 192.168.1.254. Las PDU aparecerán en la ventana de simulación.
+c. Minimiza, pero no cierres, la ventana de configuración de FTP Client.
+
+4. Genera tráfico DNS.
+a. Haz clic en DNS Client y abra el Command Prompt
+b. Introduce el comando nslookup multiserver.pt.ptu. Aparecerá una PDU en la ventana de simulación.
+c. Minimiza, pero no cierre, la ventana de configuración de DNS Client. 
+
+5. Genera tráfico de correo electrónico.
+a. Haz clic en E-Mail Client y abre la herramienta E Mail desde el escritorio.
+b. Haz clic en Compose (Redactar) y escribe la siguiente información:
+1) To: user@multiserver.pt.ptu
+2) Subject: Personalizar la línea de asunto
+3) E-Mail Body: personalizar el correo electrónico
+c. Haz clic en Send (Enviar).
+d. Minimiza, pero no cierres, la ventana de configuración de E-Mail Client. 
+
+6. Verifica que se haya generado tráfico y que esté preparado para la simulación.
+Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
+
+7. Examina la multiplexación a medida que el tráfico cruza la red.
+Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para observar los diferentes protocolos que viajan por la red.
+
+Nota: El botón Capture/Forward ' >| ' es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
+
+a. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch. 
+b. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
+
+¿Cómo se llama esto?
+
+Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?
+
+
 # 1 Genera tráfico de red en modo de simulación y vea multiplexación
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
