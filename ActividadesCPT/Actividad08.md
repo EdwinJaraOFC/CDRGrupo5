@@ -53,7 +53,9 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 
 **Nota:** El botón Capture/Forward ' >| ' es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
 
-1. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch. 
+1. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch.
+ ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/5ff64e2d-097e-4567-b0d0-110fb9ca168f)
+  
 2. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
 **¿Cómo se llama esto?**
