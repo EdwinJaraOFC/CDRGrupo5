@@ -1,7 +1,8 @@
 # 1 Genera tráfico de red en modo de simulación y vea multiplexación
 
 
-***Preguta: ¿Como se llama esto?
+## Preguta: 
+### ¿Como se llama esto?
 
 
 
