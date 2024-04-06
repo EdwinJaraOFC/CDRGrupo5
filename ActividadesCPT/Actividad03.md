@@ -3,7 +3,7 @@
   <h1 align="center">Actividad 3: Identificación de direcciones MAC y direcciones IP</h1>
 </p>
 
-## Recopila información del PDU para la comunicación de red local
+## Paso 1: Recopila información del PDU para la comunicación de red local
 
 ### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 172.16.31.2.
 
@@ -52,7 +52,7 @@ Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/aa81520e-5f11-4af1-8c03-9131da8c1a5e)
 
-## Recopila información del PDU para la comunicación de red remota
+## Paso 2: Recopila información del PDU para la comunicación de red remota
 
 ### Recopila información de la PDU a medida que un paquete viaja de 172.16.31.5 a 10.10.10.2. 
 a. Haz click en 172.16.31.5 y abra el Command Prompt.
