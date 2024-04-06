@@ -101,16 +101,16 @@ bandera a la vez. Los valores de las banderas se muestran a continuación.
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b16ab445-be18-44a9-b30b-44529dedacd0)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/ab9f340b-3abc-4dd3-bbe7-1aea06987ab6)
 
-¿Qué indicadores TCP se establecen en esta PDU?
-
-Cierra la PDU y Haz clic en Capture/Forward hasta que una PDU con una marca de verificación
+- ¿Qué indicadores TCP se establecen en esta PDU?
+- ACK y PSH
+- Cierra la PDU y Haz clic en Capture/Forward hasta que una PDU con una marca de verificación
 regrese al HTTP Client.
-Cierra el sobre de PDU y seleccione Inbound PDU Details. ¿En qué cambiaron los números de
+- Cierra el sobre de PDU y seleccione Inbound PDU Details. ¿En qué cambiaron los números de
 puerto y de secuencia? Haz clic en la PDU HTTP que HTTP Client ha preparado para enviar a
 MultiServer. Este es el comienzo de la comunicación HTTP. Haz clic en este segundo sobre de PDU
 y seleccione Outbound PDU Details (Detalles de PDU saliente).
-Pregunta:
-¿Qué información aparece ahora en la sección TCP? ¿En qué se diferencian los números de puerto
+- Pregunta:
+- ¿Qué información aparece ahora en la sección TCP? ¿En qué se diferencian los números de puerto
 y de secuencia con respecto a las dos PDU anteriores?
 
 Restablece la simulación.
