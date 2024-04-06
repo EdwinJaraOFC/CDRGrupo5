@@ -85,10 +85,10 @@ para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic enOutbound
 PDU Details y desplácese hacia abajo hasta la segunda sección.
 
-**¿Cómo se rotula la sección?**
-TCP
-**¿Se consideran confiables estas comunicaciones?**
-SI
+- **¿Cómo se rotula la sección?**
+- TCP
+- **¿Se consideran confiables estas comunicaciones?**
+- SI
 Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
 
 Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala
