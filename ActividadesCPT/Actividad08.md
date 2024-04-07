@@ -104,7 +104,7 @@ para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 4. Haz clic en Capturar/Reenviar hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52" height="300">
 </p>
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
