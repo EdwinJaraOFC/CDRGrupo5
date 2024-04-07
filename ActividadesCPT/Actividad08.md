@@ -66,8 +66,8 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a" height="150">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7565f8cd-111c-4cb4-ba33-7e440348e226" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a" height="300">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7565f8cd-111c-4cb4-ba33-7e440348e226" height="300">
 </p>
 
 ### Examina la multiplexación a medida que el tráfico cruza la red.
