@@ -17,9 +17,11 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 3. En el campo URL, introduce 192.168.1.254 y haz clic en Go (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
 4. Minimiza, pero no cierres, la ventana de configuración de HTTP Client.
 
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/085933e2-4924-4a16-9a3d-4adf6e0f4806" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/e5d90be3-354b-4281-8a5d-99b50ec50df6" height="150">
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/085933e2-4924-4a16-9a3d-4adf6e0f4806)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/e5d90be3-354b-4281-8a5d-99b50ec50df6)
 
 ### Genera tráfico FTP.
 1. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
