@@ -27,9 +27,13 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 1. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
 2. Introduce el comando ftp 192.168.1.254. Las PDU aparecerán en la ventana de simulación.
 3. Minimiza, pero no cierres, la ventana de configuración de FTP Client.
-   
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/a93e3728-78f3-4f60-a480-da095956bfb5)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/74ca1217-39d3-470e-bd57-e72b1697fe61)
+
+
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/a93e3728-78f3-4f60-a480-da095956bfb5" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/74ca1217-39d3-470e-bd57-e72b1697fe61" height="150">
+</p>
+
 
 ### Genera tráfico DNS.
 1. Haz clic en DNS Client y abra el Command Prompt
