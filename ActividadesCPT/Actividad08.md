@@ -56,8 +56,11 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 3. Haz clic en Send (Enviar).
 4. Minimiza, pero no cierres, la ventana de configuración de E-Mail Client.
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/11c97a53-454f-438e-9e97-bd748d78ec39)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/c1d524ae-be0a-4531-9df8-28ed20588e84)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/11c97a53-454f-438e-9e97-bd748d78ec39" height="100">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/c1d524ae-be0a-4531-9df8-28ed20588e84" height="100">
+</p>
+
 
 ### Verifica que se haya generado tráfico y que esté preparado para la simulación.
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
