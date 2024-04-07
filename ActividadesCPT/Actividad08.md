@@ -39,9 +39,13 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 1. Haz clic en DNS Client y abra el Command Prompt
 2. Introduce el comando nslookup multiserver.pt.ptu. Aparecerá una PDU en la ventana de simulación.
 3. Minimiza, pero no cierre, la ventana de configuración de DNS Client.
-   
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2bdeaa46-0ecf-4ad1-8581-ec3b80e60eb2)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7555c3bd-a1e1-4043-b178-83747d397545)
+
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2bdeaa46-0ecf-4ad1-8581-ec3b80e60eb2" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7555c3bd-a1e1-4043-b178-83747d397545" height="150">
+</p>
+
+
 
 ### Genera tráfico de correo electrónico.
 1. Haz clic en E-Mail Client y abre la herramienta E Mail desde el escritorio.
