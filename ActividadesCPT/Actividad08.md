@@ -163,24 +163,44 @@ Restablece la simulación.
 - Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
 ingresando ftp 192.168.1.254.
 - En el Panel de simulación, cambia Edit Filters para mostrar solo FTP y TCP.
+  
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/3f9a2747-46b6-45f9-8212-fc75d8659e6a">
+</p>
+
 - Haz clic en Capture/Forward. Haz clic en el segundo sobre PDU para abrirlo.Haz clic en la
 pestaña Outbound PDU Details y desplácese hacia abajo hasta la sección TCP.
 Pregunta:
 - ¿Se consideran confiables estas comunicaciones?
+
+ #### sí
 - Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE
 DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE
 RECONOCIMIENTO).
+
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/c78eff0b-f8ac-4187-906f-13fcab1d27c0)
+
 Pregunta:
 -¿Cuál es el valor en el campo de bandera?
+
+####  0b00000010
 - Cierra la PDU y haz clic en Capture/Forward hasta que una PDU vuelva a FTP Client con
 una marca de verificación.
+
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/df3f33d2-cc70-4c60-9d9d-48c9af041d6a)
+
 - Cierra el sobre de PDU y seleccione Inbound PDU Details.
+  
 -Pregunta:
    -¿En qué cambiaron los números de puerto y de secuencia?
-
+  
+   #### se invitieron el source y dest, así como un cambio en un dígito de la FLAG
+    
 - Haz clic en la ficha de detalles de la PDU saliente.
 -Pregunta:
 -¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores?
+
+  ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e8e4e7e5-d2f8-4254-9944-92ede7b5f4aa)
 
 - Cierra la PDU y haz clic en Capture/Forward hasta que una segunda PDU vuelva a FTP
 Client. La PDU es de un color diferente.
@@ -188,6 +208,8 @@ Client. La PDU es de un color diferente.
 TCP.
 -Pregunta:
 - ¿Cuál es el mensaje del servidor?
+
+  #### El mensaje es "Message:Welcome to PT Ftp server "
 - Haz clic en Reset Simulation (Restablecer simulación).
 ### 4 Examina el tráfico DNS cuando los clientes se comunican con el servidor.
 - Repita los pasos de la Parte 1 para crear tráfico DNS.
