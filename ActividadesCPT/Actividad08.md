@@ -65,8 +65,10 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 ### Verifica que se haya generado tráfico y que esté preparado para la simulación.
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7565f8cd-111c-4cb4-ba33-7e440348e226)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/cc41aa5d-9cf0-47e3-afdc-26d69b396d3a" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7565f8cd-111c-4cb4-ba33-7e440348e226" height="150">
+</p>
 
 ### Examina la multiplexación a medida que el tráfico cruza la red.
 Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para observar los diferentes protocolos que viajan por la red.
@@ -74,9 +76,11 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 **Nota:** El botón Capture/Forward ' >| ' es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
 
 1. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch.
+
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/5ff64e2d-097e-4567-b0d0-110fb9ca168f" height="150">
+</p>
    
- ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/5ff64e2d-097e-4567-b0d0-110fb9ca168f)
-  
 3. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
 **¿Cómo se llama esto?**
@@ -98,8 +102,10 @@ PDU HTTP y TCP .
 3. Abre el navegador en HTTP Client e ingresa 192.168.1.254 en el campo URL. Haz clic en Ir
 para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 4. Haz clic en Capturar/Reenviar hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
-  
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52)
+
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52" height="150">
+</p>
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
 - Porque primero se debe establecer una coneccion TCP entre el multiserver y el cliente  para que haci el trafico HTTP pueda comenzar.
@@ -112,7 +118,10 @@ PDU Details y desplácese hacia abajo hasta la segunda sección.
 - SI
 Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2aeeb869-a161-4601-aa46-41f6508b6d8a)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2aeeb869-a161-4601-aa46-41f6508b6d8a" height="150">
+</p>
+
 
 Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala
 derecha de la «b» representan los indicadores TCP que se establecen para esta etapa de la
@@ -120,8 +129,10 @@ conversación de datos. Cada uno de los seis lugares corresponde a una bandera. 
 «1» en cualquier lugar indica que el indicador está establecido. Se puede configurar más de una
 bandera a la vez. Los valores de las banderas se muestran a continuación.
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b16ab445-be18-44a9-b30b-44529dedacd0)
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/ab9f340b-3abc-4dd3-bbe7-1aea06987ab6)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b16ab445-be18-44a9-b30b-44529dedacd0" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/ab9f340b-3abc-4dd3-bbe7-1aea06987ab6" height="150">
+</p>
 
 - ¿Qué indicadores TCP se establecen en esta PDU?
 - ACK y PSH
