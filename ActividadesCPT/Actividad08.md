@@ -154,6 +154,7 @@ y seleccione Outbound PDU Details (Detalles de PDU saliente).
 - Pregunta:
 - ¿Qué información aparece ahora en la sección TCP? ¿En qué se diferencian los números de puerto
 y de secuencia con respecto a las dos PDU anteriores?
+- Los puertos de origen y destino se invierten, cambia el número de secuencia y Ack, así como Flag
 
 Restablece la simulación.
 
