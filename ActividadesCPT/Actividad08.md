@@ -219,19 +219,28 @@ DNS y UDP.
 - Mire los detalles del modelo OSI para la PDU saliente.
 - Pregunta:
 - ¿Qué es el protocolo de capa 4?
+  Es el protocolo UDP
 
 - ¿Se consideran confiables estas comunicaciones?
-
+  
+  No es confiable
+  
 - Abra la ficha Detalles de PDU saliente y busque la sección UDP de los formatos de PDU.
 - Registre los valores de SRC PORT y DEST PORT .
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/0ac88765-2188-4d82-8dc7-1df99bf04afb)
+
 - Pregunta:
 - ¿Por qué no hay números de secuencia y reconocimiento?
+  Porque UDP, al no ser una conexión confiable, no necesita almacenar esos datos extra de seguridad
 
 - Cierre la PDU y haz clic en Capture/Forward hasta que una PDU con una marca de
 verificación regrese al DNS Client.
 - Cierra el sobre de PDU y seleccione Inbound PDU Details.
 - Pregunta:
 - ¿En qué cambiaron los números de puerto y de secuencia?
+  Se invirtieron al regresar y llegar desde un dispositivo diferente.
+  ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e26d2ed7-2c8e-42bc-b6c4-a2d41aec2a8b)
+
 - Haz clic en Reset Simulation (Restablecer simulación).
 
 ### 4 Examina el tráfico de correo electrónico cuando los clientes se comunican con el servidor
@@ -241,24 +250,41 @@ POP3, SMTP y TCP.
 - Haz clic en el primer sobre de la PDU para abrirlo.
 - Haz clic en la pestaña Outbound PDU Details y desplácese hacia abajo hasta la última
 sección.
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/7ce12f92-96cf-4768-8b63-82ff9346a84f)
+
 -Preguntas:
 -¿Qué protocolo de la capa de transporte utiliza el tráfico de correo electrónico? ¿Se
 consideran confiables estas comunicaciones?
+
+#### Usa TCP, que, como hemos visto anteriormente, es seguro debido a los valores extra que se guardan
+
 - Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE
 DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE
 RECONOCIMIENTO). ¿Cuál es el valor del campo de bandera?
+
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/f7aec8ea-8b86-492a-822e-1ada7a53530b)
+
 - Cierra la PDU y haz clic en Capture/Forward hasta que una PDU regrese al E-Mail Client
 con una marca de verificación.
 - Haz clic en el sobre TCP PDU y seleccione Inbound PDU Details.
 -Pregunta:
 -¿En qué cambiaron los números de puerto y de secuencia?
+
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/861434d7-eda3-42d1-a333-f54d0503e104)![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/4c384b2c-3a85-4262-b2e8-f17e3906f9a4)
+
+
 - Haz clic en la ficha de detalles de la PDU saliente. ¿En qué se diferencian los números de
 puerto y de secuencia con respecto a los dos resultados anteriores?
+En el sq number, puesto que implementa, además de SYN, ACK
+
 - Hay una segunda PDU de un color diferente que E-Mail Client hha preparado para enviar a
 MultiServer. Este es el comienzo de la comunicación de correo electrónico. Haz clic en este
 segundo sobre de PDU y seleccione Outbound PDU Details.
 - Preguntas:
 - ¿En qué se diferencian los números de puerto y de secuencia con respecto a las dos PDU
 anteriores?
+en el valor de la FLAG (0b00011000)
 - ¿Qué protocolo de correo electrónico se relaciona con el puerto TCP 25? ¿Qué protocolo se
 relaciona con el puerto TCP 110?
+
+con el TCP25, asociamos el protocolo SMTP (Protocolo Simple de Transferencia de Correo) y con el puerto TCP110, el protocolo POP3 (Post Office Protocol)
