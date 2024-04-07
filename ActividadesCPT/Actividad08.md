@@ -178,7 +178,11 @@ Pregunta:
 DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE
 RECONOCIMIENTO).
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/c78eff0b-f8ac-4187-906f-13fcab1d27c0)
+
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/c78eff0b-f8ac-4187-906f-13fcab1d27c0" height="300">
+</p>
+
 
 Pregunta:
 -¿Cuál es el valor en el campo de bandera?
@@ -187,7 +191,9 @@ Pregunta:
 - Cierra la PDU y haz clic en Capture/Forward hasta que una PDU vuelva a FTP Client con
 una marca de verificación.
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/df3f33d2-cc70-4c60-9d9d-48c9af041d6a)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/df3f33d2-cc70-4c60-9d9d-48c9af041d6a" >
+</p>
 
 - Cierra el sobre de PDU y seleccione Inbound PDU Details.
   
@@ -199,8 +205,10 @@ una marca de verificación.
 - Haz clic en la ficha de detalles de la PDU saliente.
 -Pregunta:
 -¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores?
+  <p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e8e4e7e5-d2f8-4254-9944-92ede7b5f4aa" height="300">
+  </p>
 
-  ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e8e4e7e5-d2f8-4254-9944-92ede7b5f4aa)
 
 - Cierra la PDU y haz clic en Capture/Forward hasta que una segunda PDU vuelva a FTP
 Client. La PDU es de un color diferente.
@@ -227,7 +235,11 @@ DNS y UDP.
   
 - Abra la ficha Detalles de PDU saliente y busque la sección UDP de los formatos de PDU.
 - Registre los valores de SRC PORT y DEST PORT .
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/0ac88765-2188-4d82-8dc7-1df99bf04afb)
+ 
+  <p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/0ac88765-2188-4d82-8dc7-1df99bf04afb" >
+  </p>
+
 
 - Pregunta:
 - ¿Por qué no hay números de secuencia y reconocimiento?
@@ -239,7 +251,10 @@ verificación regrese al DNS Client.
 - Pregunta:
 - ¿En qué cambiaron los números de puerto y de secuencia?
   Se invirtieron al regresar y llegar desde un dispositivo diferente.
-  ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e26d2ed7-2c8e-42bc-b6c4-a2d41aec2a8b)
+  <p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e26d2ed7-2c8e-42bc-b6c4-a2d41aec2a8b">
+  </p>
+
 
 - Haz clic en Reset Simulation (Restablecer simulación).
 
@@ -250,7 +265,10 @@ POP3, SMTP y TCP.
 - Haz clic en el primer sobre de la PDU para abrirlo.
 - Haz clic en la pestaña Outbound PDU Details y desplácese hacia abajo hasta la última
 sección.
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/7ce12f92-96cf-4768-8b63-82ff9346a84f)
+<p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/7ce12f92-96cf-4768-8b63-82ff9346a84f">
+</p>
+
 
 -Preguntas:
 -¿Qué protocolo de la capa de transporte utiliza el tráfico de correo electrónico? ¿Se
@@ -261,8 +279,11 @@ consideran confiables estas comunicaciones?
 - Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE
 DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE
 RECONOCIMIENTO). ¿Cuál es el valor del campo de bandera?
+<p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/f7aec8ea-8b86-492a-822e-1ada7a53530b">
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/f7aec8ea-8b86-492a-822e-1ada7a53530b)
+
 
 - Cierra la PDU y haz clic en Capture/Forward hasta que una PDU regrese al E-Mail Client
 con una marca de verificación.
@@ -270,7 +291,11 @@ con una marca de verificación.
 -Pregunta:
 -¿En qué cambiaron los números de puerto y de secuencia?
 
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/861434d7-eda3-42d1-a333-f54d0503e104)![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/4c384b2c-3a85-4262-b2e8-f17e3906f9a4)
+<p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/861434d7-eda3-42d1-a333-f54d0503e104" height="150">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/4c384b2c-3a85-4262-b2e8-f17e3906f9a4" height="150">
+</p>
+
 
 
 - Haz clic en la ficha de detalles de la PDU saliente. ¿En qué se diferencian los números de
