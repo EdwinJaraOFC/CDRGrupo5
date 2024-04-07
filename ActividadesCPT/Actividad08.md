@@ -93,10 +93,10 @@ Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para obse
 3. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
 **¿Cómo se llama esto?**
-- Se llama multiplexacion, esto es trasnmitir varios datos por un mismo medio uno por uno.
+- Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.
 Aparece una variedad de PDU en la lista de eventos en el Panel de simulación.
 **¿Cuál es el significado de los diferentes colores?**
-- Los colores nos muestran los protocolos de cada PDU
+- Los colores nos muestran los protocolos de cada PDU, sean HTML, FTP, etc.
 
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
 
@@ -117,7 +117,7 @@ para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 </p>
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
-- Porque primero se debe establecer una coneccion TCP entre el multiserver y el cliente  para que haci el trafico HTTP pueda comenzar.
+- Porque primero se debe establecer una coneccion TCP entre el multiserver y el cliente, para que así el trafico HTTP pueda comenzar.
 5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic enOutbound
 PDU Details y desplácese hacia abajo hasta la segunda sección.
 
