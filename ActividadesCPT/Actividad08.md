@@ -121,8 +121,10 @@ PDU Details** y desplácese hacia abajo hasta la segunda sección.
 
 **¿Cómo se rotula la sección?**
 - TCP<br>
+
 **¿Se consideran confiables estas comunicaciones?**
 - SI<br>
+
 Registra los valores de **SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO)**.
 
 <p align="center">
