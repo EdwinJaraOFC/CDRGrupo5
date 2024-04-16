@@ -15,13 +15,13 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/89754dda-7968-47cb-9c50-8b62df82fed1">
 </p>
 
-**Nota:** El comando "-n 1" indica el envío de un único mensaje, sin embargo, el terminal muestra que se envian 4, encontraste al envío en un command prompt real como el de windows, que obedece al comando enviando una sola solicitud
+**Nota:** El comando "-n 1" envía solo una solicitud de ping, aunque en el terminal se muestren cuatro envíos. Esto se debe a cómo funciona el comando en un prompt de Windows real, donde obedece al comando y envía una sola solicitud.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e5096bd0-0ad1-44a5-acff-e1b735e84df0" height="200">
 </p>
 
-El número de solicitudes dependerá del número que coloques, por ejemplo si ponemos el comando "n -2" enviará 2 solicitudes.
+La cantidad de solicitudes enviadas depende del número especificado en el comando. Por ejemplo, si se utiliza el comando "n -2", se enviarán dos solicitudes en lugar de una.
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/471a851f-2d8d-4437-a20c-3fb3a9f4b57b" height="200">
 </p>
