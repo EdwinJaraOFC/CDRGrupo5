@@ -98,7 +98,7 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
 - Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.<br>
 
 **Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?**
-- Los colores nos muestran los protocolos de cada PDU, sean HTTL, FTP, etc.
+- Los colores nos muestran los protocolos de cada PDU, sean HTTP, FTP, etc.
 
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
 
