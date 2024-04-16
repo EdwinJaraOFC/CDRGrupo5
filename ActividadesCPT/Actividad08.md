@@ -9,16 +9,17 @@
 Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve en la simulación.
 1. Haz clic en MultiServer y luego haz click en **Desktop** tab > **Command Prompt**.
 2. Ingresa el comando **ping -n 1 192.168.1.255**. Está haciendo ping a la dirección broadcast de la LAN del cliente. La opción de comando enviará sólo una solicitud de ping en lugar de las cuatro habituales. Esto tomará unos segundos ya que cada dispositivo en la red responde a la solicitud de ping de MultiServer.
- <p align="center">
+3. Cierra la ventana **MultiServer**.
+
+<p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/89754dda-7968-47cb-9c50-8b62df82fed1">
 </p>
 
-## El comando "-n 1" indica el envío de un único mensaje, sin embargo, el terminal muestra que se envian 4, encontraste al envío en un command prompt real como el de windows, que obedece al comando enviando una sola solicitud
+**Nota:** El comando "-n 1" indica el envío de un único mensaje, sin embargo, el terminal muestra que se envian 4, encontraste al envío en un command prompt real como el de windows, que obedece al comando enviando una sola solicitud
+
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e5096bd0-0ad1-44a5-acff-e1b735e84df0" height="200">
 </p>
-
-3. Cierra la ventana **MultiServer**.
 
 ### Genera tráfico web (HTTP)
 1. Cambia a modo de simulación.
