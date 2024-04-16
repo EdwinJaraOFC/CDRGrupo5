@@ -95,7 +95,7 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
 </p>
 
 **¿Cómo se llama esto?**
-- Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.<br><br>
+- Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.<br>
 
 **Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?**
 - Los colores nos muestran los protocolos de cada PDU, sean HTML, FTP, etc.
