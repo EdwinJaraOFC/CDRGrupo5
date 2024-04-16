@@ -28,9 +28,9 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 
 ### Genera tráfico web (HTTP)
 1. Cambia a modo de simulación.
-2. Haz clic en Cliente HTTP y abre el Explorador Web desde el escritorio.
-3. En el campo URL, introduce 192.168.1.254 y haz clic en Go (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
-4. Minimiza, pero no cierres, la ventana de configuración de HTTP Client.
+2. Haz clic en **Cliente HTTP** y abre el **Explorador Web** desde el escritorio.
+3. En el campo URL, introduce **192.168.1.254** y haz clic en **Go** (Ir). Los sobres (PDU) aparecerán en la ventana de topología.
+4. Minimiza, pero no cierres, la ventana de configuración de **HTTP Client**.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/085933e2-4924-4a16-9a3d-4adf6e0f4806" height="150">
@@ -39,9 +39,9 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 
 
 ### Genera tráfico FTP.
-1. Haz clic en FTP Client y abra el Command Prompt desde el escritorio
-2. Introduce el comando ftp 192.168.1.254. Las PDU aparecerán en la ventana de simulación.
-3. Minimiza, pero no cierres, la ventana de configuración de FTP Client.
+1. Haz clic en **FTP Client** y abra el **Command Prompt** desde el escritorio
+2. Introduce el comando **ftp 192.168.1.254**. Las PDU aparecerán en la ventana de simulación.
+3. Minimiza, pero no cierres, la ventana de configuración de **FTP Client**.
 
 
 <p align="center">
@@ -51,9 +51,9 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 
 
 ### Genera tráfico DNS.
-1. Haz clic en DNS Client y abra el Command Prompt
-2. Introduce el comando nslookup multiserver.pt.ptu. Aparecerá una PDU en la ventana de simulación.
-3. Minimiza, pero no cierre, la ventana de configuración de DNS Client.
+1. Haz clic en DNS Client y abra el **Command Prompt**.
+2. Introduce el comando **nslookup multiserver.pt.ptu**. Aparecerá una PDU en la ventana de simulación.
+3. Minimiza, pero no cierre, la ventana de configuración de **DNS Client**.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2bdeaa46-0ecf-4ad1-8581-ec3b80e60eb2" height="150">
@@ -63,13 +63,13 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 
 
 ### Genera tráfico de correo electrónico.
-1. Haz clic en E-Mail Client y abre la herramienta E Mail desde el escritorio.
-2. Haz clic en Compose (Redactar) y escribe la siguiente información:
-- To: user@multiserver.pt.ptu
-- Subject: Personalizar la línea de asunto
-- E-Mail Body: personalizar el correo electrónico
-3. Haz clic en Send (Enviar).
-4. Minimiza, pero no cierres, la ventana de configuración de E-Mail Client.
+1. Haz clic en **E-Mail Client** y abre la herramienta **E Mail** desde el escritorio.
+2. Haz clic en **Compose** (Redactar) y escribe la siguiente información:
+- **To:** user@multiserver.pt.ptu
+- **Subject:** Personalizar la línea de asunto
+- **E-Mail Body:** personalizar el correo electrónico
+3. Haz clic en **Send** (Enviar).
+4. Minimiza, pero no cierres, la ventana de configuración de **E-Mail Client**.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/11c97a53-454f-438e-9e97-bd748d78ec39" height="100">
@@ -86,17 +86,17 @@ Ahora debería haber entradas de PDU en el panel de simulación para cada uno de
 </p>
 
 ### Examina la multiplexación a medida que el tráfico cruza la red.
-Ahora utilizarás el botón Capturar/Reenviar del Panel de Simulación para observar los diferentes protocolos que viajan por la red.
+Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para observar los diferentes protocolos que viajan por la red.
 
-**Nota:** El botón Capture/Forward ' >| ' es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
+**Nota:** El botón **Capture/Forward ' >| '** es una flecha pequeña que apunta a la derecha con una barra vertical al lado.
 
-1. Haz clic una vez en Capture/Forward. Todas las PDU se transfieren al switch.
+1. Haz clic una vez en **Capture/Forward**. Todas las PDU se transfieren al switch.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/5ff64e2d-097e-4567-b0d0-110fb9ca168f" height="300">
 </p>
    
-3. Haz clic en Capturar/Reenviar seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
+3. Haz clic en **Capturar/Reenviar** seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
 **¿Cómo se llama esto?**
 - Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.
@@ -107,16 +107,15 @@ Aparece una variedad de PDU en la lista de eventos en el Panel de simulación.
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
 
 ### Examinar el tráfico HTTP cuando los clientes se comunican con el servidor
-1. Haz clic en Reset Simulation (Restablecer simulación).
-2. Filtrar el tráfico que se muestra actualmente sólo a las PDU HTTP y TCP . Para filtrar el
+1. Haz clic en **Reset Simulation (Restablecer simulación)**.
+2. Filtrar el tráfico que se muestra actualmente sólo a las PDU **HTTP** y **TCP**. Para filtrar el
 tráfico que se muestra actualmente:
-- Haz clic en Edit Filters y alterna el botón Show All/None .
-- Selecciona HTTP y TCP. Haz clic en la «x» roja en la esquina superior derecha del
+- Haz clic en **Edit Filters** y alterna el botón **Show All/None**.
+- Selecciona **HTTP** y **TCP**. Haz clic en la «x» roja en la esquina superior derecha del
 cuadro Editar filtros para cerrarla. Los eventos visibles ahora deberían mostrar solo las
-PDU HTTP y TCP .
-3. Abre el navegador en HTTP Client e ingresa 192.168.1.254 en el campo URL. Haz clic en Ir
-para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
-4. Haz clic en Capturar/Reenviar hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
+PDU **HTTP** y **TCP**.
+3. Abre el navegador en HTTP Client e ingresa **192.168.1.254** en el campo URL. Haz clic en **Ir** para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
+4. Haz clic en **Capturar/Reenviar** hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/943b7464-c4ca-41d5-9160-7f1b49912f52" height="300">
@@ -124,14 +123,15 @@ para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
 - Porque primero se debe establecer una coneccion TCP entre el multiserver y el cliente, para que así el trafico HTTP pueda comenzar.
-5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic enOutbound
-PDU Details y desplácese hacia abajo hasta la segunda sección.
+
+5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic en **Outbound
+PDU Details** y desplácese hacia abajo hasta la segunda sección.
 
 - **¿Cómo se rotula la sección?**
 - TCP
 - **¿Se consideran confiables estas comunicaciones?**
 - SI
-Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
+Registra los valores de **SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO)**.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2aeeb869-a161-4601-aa46-41f6508b6d8a" height="150">
@@ -151,19 +151,19 @@ bandera a la vez. Los valores de las banderas se muestran a continuación.
 
 - ¿Qué indicadores TCP se establecen en esta PDU?
 - ACK y PSH
-- Cierra la PDU y Haz clic en Capture/Forward hasta que una PDU con una marca de verificación
-regrese al HTTP Client.
-- Cierra el sobre de PDU y seleccione Inbound PDU Details. ¿En qué cambiaron los números de
-puerto y de secuencia? Haz clic en la PDU HTTP que HTTP Client ha preparado para enviar a
+- Cierra la PDU y Haz clic en **Capture/Forward** hasta que una PDU con una marca de verificación
+regrese al **HTTP Client**.
+- Cierra el sobre de PDU y seleccione **Inbound PDU Details**. ¿En qué cambiaron los números de
+puerto y de secuencia? Haz clic en la **PDU HTTP** que **HTTP Client** ha preparado para enviar a
 MultiServer. Este es el comienzo de la comunicación HTTP. Haz clic en este segundo sobre de PDU
 y seleccione Outbound PDU Details (Detalles de PDU saliente).
-- Pregunta:
+
+
 - ¿Qué información aparece ahora en la sección TCP? ¿En qué se diferencian los números de puerto
 y de secuencia con respecto a las dos PDU anteriores?
 - Los puertos de origen y destino se invierten, cambia el número de secuencia y Ack, así como Flag
 
 Restablece la simulación.
-
 
 ### Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
 - Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
