@@ -100,8 +100,6 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
 **Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?**
 - Los colores nos muestran los protocolos de cada PDU, sean HTTP, FTP, etc.
 
-**Nota:** Al dividirnos las partes de la actividad observamos que nuestros puertos de origen eran distintos, lo cual es normal ya que suele variar dependiendo de la simulación.
-
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
 
 ### Examinar el tráfico HTTP cuando los clientes se comunican con el servidor
@@ -136,6 +134,8 @@ Registra los valores de **SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DEST
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/4bd17b02-c899-4ce4-9a8d-3cdddfe22ff3" height="150">
 </p>
+
+**Nota:** Al dividirnos las partes de la actividad observamos que nuestros puertos de origen eran distintos, lo cual es normal ya que suele variar dependiendo de la simulación.
 
 <p align="justify">
 Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala derecha de la «b» representan los indicadores TCP que se establecen para esta etapa de la conversación de datos. Cada uno de los seis lugares corresponde a una bandera. La presencia de un «1» en cualquier lugar indica que el indicador está establecido. Se puede configurar más de una bandera a la vez. Los valores de las banderas se muestran a continuación.
