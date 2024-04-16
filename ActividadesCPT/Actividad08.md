@@ -98,6 +98,10 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
    
 3. Haz clic en **Capturar/Reenviar** seis veces y observe las PDU de los diferentes hosts mientras viajan por la red. Observe que solo una PDU puede cruzar un cable en cada dirección en un momento determinado.
 
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/de502acd-9be4-4288-805a-148979c937d3" height="300">
+</p>
+
 **¿Cómo se llama esto?**
 - Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.
 Aparece una variedad de PDU en la lista de eventos en el Panel de simulación.
