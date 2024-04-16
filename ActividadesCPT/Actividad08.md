@@ -114,7 +114,7 @@ tráfico que se muestra actualmente:<br>- Haz clic en **Edit Filters** y alterna
 </p>
 
 **¿Por qué tardó tanto en aparecer la PDU HTTP?**
-- Porque primero se debe establecer una coneccion TCP entre el multiserver y el cliente, para que así el trafico HTTP pueda comenzar.
+- Porque primero se debe establecer una conexión TCP entre el multiserver y el cliente, para que así el trafico HTTP pueda comenzar.
 
 5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic en **Outbound
 PDU Details** y desplácese hacia abajo hasta la segunda sección.
