@@ -64,10 +64,7 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 
 ### Genera tráfico de correo electrónico.
 1. Haz clic en **E-Mail Client** y abre la herramienta **E Mail** desde el escritorio.
-2. Haz clic en **Compose** (Redactar) y escribe la siguiente información:
-- **To:** user@multiserver.pt.ptu
-- **Subject:** Personalizar la línea de asunto
-- **E-Mail Body:** personalizar el correo electrónico
+2. Haz clic en **Compose** (Redactar) y escribe la siguiente información:<br>- **To:** user@multiserver.pt.ptu<br>- **Subject:** Personalizar la línea de asunto<br>- **E-Mail Body:** personalizar el correo electrónico
 3. Haz clic en **Send** (Enviar).
 4. Minimiza, pero no cierres, la ventana de configuración de **E-Mail Client**.
 
