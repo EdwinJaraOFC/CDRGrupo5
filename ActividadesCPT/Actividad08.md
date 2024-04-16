@@ -60,8 +60,6 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/7555c3bd-a1e1-4043-b178-83747d397545" height="150">
 </p>
 
-
-
 ### Genera tráfico de correo electrónico.
 1. Haz clic en **E-Mail Client** y abre la herramienta **E Mail** desde el escritorio.
 2. Haz clic en **Compose** (Redactar) y escribe la siguiente información:<br>- **To:** user@multiserver.pt.ptu<br>- **Subject:** Personalizar la línea de asunto<br>- **E-Mail Body:** personalizar el correo electrónico
@@ -72,7 +70,6 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/11c97a53-454f-438e-9e97-bd748d78ec39" height="100">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/c1d524ae-be0a-4531-9df8-28ed20588e84" height="100">
 </p>
-
 
 ### Verifica que se haya generado tráfico y que esté preparado para la simulación.
 Ahora debería haber entradas de PDU en el panel de simulación para cada uno de los equipos cliente.
@@ -99,8 +96,7 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
 
 **¿Cómo se llama esto?**
 - Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.
-Aparece una variedad de PDU en la lista de eventos en el Panel de simulación.
-**¿Cuál es el significado de los diferentes colores?**
+**Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?**
 - Los colores nos muestran los protocolos de cada PDU, sean HTML, FTP, etc.
 
 ## Paso 2: Examinar la funcionalidad de los protocolos TCP y UDP
