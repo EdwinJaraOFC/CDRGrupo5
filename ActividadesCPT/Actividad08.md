@@ -21,7 +21,7 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e5096bd0-0ad1-44a5-acff-e1b735e84df0" height="200">
 </p>
 
-La cantidad de solicitudes enviadas depende del número especificado en el comando. Por ejemplo, si se utiliza el comando "n -2", se enviarán dos solicitudes en lugar de una.
+**Nota 2:** La cantidad de solicitudes enviadas depende del número especificado en el comando. Por ejemplo, si se utiliza el comando "n -2", se enviarán dos solicitudes en lugar de una.
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/471a851f-2d8d-4437-a20c-3fb3a9f4b57b" height="200">
 </p>
