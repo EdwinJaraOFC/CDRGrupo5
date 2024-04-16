@@ -126,13 +126,13 @@ PDU Details** y desplácese hacia abajo hasta la segunda sección.
 - SI<br>
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/6ebbdd62-30db-4cd8-8f09-b46835dadbca" height="300">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/17a714dd-8525-4438-9cdb-cb28c5cbba09" height="300">
 </p>
 
 Registra los valores de **SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO)**.
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/69e17708-9527-42be-b98c-b3b732594985" height="150">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/4bd17b02-c899-4ce4-9a8d-3cdddfe22ff3" height="150">
 </p>
 
 <p align="justify">
