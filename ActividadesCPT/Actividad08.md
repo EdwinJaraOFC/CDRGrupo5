@@ -95,7 +95,7 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
 </p>
 
 **¿Cómo se llama esto?**
-- Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.
+- Se llama multiplexacion, esto es transmitir varios datos por un mismo medio, uno por uno.<br>
 **Aparece una variedad de PDU en la lista de eventos en el Panel de simulación. ¿Cuál es el significado de los diferentes colores?**
 - Los colores nos muestran los protocolos de cada PDU, sean HTML, FTP, etc.
 
@@ -104,11 +104,7 @@ Ahora utilizarás el **botón Capturar/Reenviar** del Panel de Simulación para 
 ### Examinar el tráfico HTTP cuando los clientes se comunican con el servidor
 1. Haz clic en **Reset Simulation (Restablecer simulación)**.
 2. Filtrar el tráfico que se muestra actualmente sólo a las PDU **HTTP** y **TCP**. Para filtrar el
-tráfico que se muestra actualmente:
-- Haz clic en **Edit Filters** y alterna el botón **Show All/None**.
-- Selecciona **HTTP** y **TCP**. Haz clic en la «x» roja en la esquina superior derecha del
-cuadro Editar filtros para cerrarla. Los eventos visibles ahora deberían mostrar solo las
-PDU **HTTP** y **TCP**.
+tráfico que se muestra actualmente:<br>- Haz clic en **Edit Filters** y alterna el botón **Show All/None**.<br>- Selecciona **HTTP** y **TCP**. Haz clic en la «x» roja en la esquina superior derecha del cuadro Editar filtros para cerrarla. Los eventos visibles ahora deberían mostrar solo las PDU **HTTP** y **TCP**.
 3. Abre el navegador en HTTP Client e ingresa **192.168.1.254** en el campo URL. Haz clic en **Ir** para conectarse al servidor a través de HTTP. Minimiza HTTP Client window.
 4. Haz clic en **Capturar/Reenviar** hasta que aparezca una PDU para HTTP. Tenga en cuenta que el color del envolvente de la ventana de topología coincide con el código de color de la PDU HTTP del Panel de simulación.
 
@@ -122,195 +118,179 @@ PDU **HTTP** y **TCP**.
 5. Haz clic en el sobre de la PDU para mostrar los detalles de la PDU. Haz clic en **Outbound
 PDU Details** y desplácese hacia abajo hasta la segunda sección.
 
-- **¿Cómo se rotula la sección?**
-- TCP
-- **¿Se consideran confiables estas comunicaciones?**
-- SI
+**¿Cómo se rotula la sección?**
+- TCP<br>
+**¿Se consideran confiables estas comunicaciones?**
+- SI<br>
 Registra los valores de **SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO)**.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2aeeb869-a161-4601-aa46-41f6508b6d8a" height="150">
 </p>
 
-
-Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala
-derecha de la «b» representan los indicadores TCP que se establecen para esta etapa de la
-conversación de datos. Cada uno de los seis lugares corresponde a una bandera. La presencia de un
-«1» en cualquier lugar indica que el indicador está establecido. Se puede configurar más de una
-bandera a la vez. Los valores de las banderas se muestran a continuación.
+<p align="justify">
+Mira el valor en el campo Indicadores, que se encuentra junto al campo Ventana. Los valores ala derecha de la «b» representan los indicadores TCP que se establecen para esta etapa de la conversación de datos. Cada uno de los seis lugares corresponde a una bandera. La presencia de un «1» en cualquier lugar indica que el indicador está establecido. Se puede configurar más de una bandera a la vez. Los valores de las banderas se muestran a continuación.
+</p>
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b16ab445-be18-44a9-b30b-44529dedacd0" height="100">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/ab9f340b-3abc-4dd3-bbe7-1aea06987ab6" height="100">
 </p>
 
-- ¿Qué indicadores TCP se establecen en esta PDU?
-- ACK y PSH
-- Cierra la PDU y Haz clic en **Capture/Forward** hasta que una PDU con una marca de verificación
-regrese al **HTTP Client**.
-- Cierra el sobre de PDU y seleccione **Inbound PDU Details**. ¿En qué cambiaron los números de
+**¿Qué indicadores TCP se establecen en esta PDU?**
+- ACK y PSH<br>
+
+Cierra la PDU y Haz clic en **Capture/Forward** hasta que una PDU con una marca de verificación
+regrese al **HTTP Client**.<br>
+
+Cierra el sobre de PDU y seleccione **Inbound PDU Details**. ¿En qué cambiaron los números de
 puerto y de secuencia? Haz clic en la **PDU HTTP** que **HTTP Client** ha preparado para enviar a
 MultiServer. Este es el comienzo de la comunicación HTTP. Haz clic en este segundo sobre de PDU
-y seleccione Outbound PDU Details (Detalles de PDU saliente).
+y seleccione Outbound PDU Details (Detalles de PDU saliente).<br>
 
-
-- ¿Qué información aparece ahora en la sección TCP? ¿En qué se diferencian los números de puerto
-y de secuencia con respecto a las dos PDU anteriores?
+**¿Qué información aparece ahora en la sección TCP?¿En qué se diferencian los números de puerto
+y de secuencia con respecto a las dos PDU anteriores?**
 - Los puertos de origen y destino se invierten, cambia el número de secuencia y Ack, así como Flag
 
 Restablece la simulación.
 
 ### Examinar el tráfico FTP cuando los clientes se comunican con el servidor.
-- Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
+1. Abre el símbolo del sistema en el escritorio del cliente FTP. Inicie una conexión FTP
 ingresando ftp 192.168.1.254.
-- En el Panel de simulación, cambia Edit Filters para mostrar solo FTP y TCP.
+2. En el Panel de simulación, cambia Edit Filters para mostrar solo FTP y TCP.
   
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/3f9a2747-46b6-45f9-8212-fc75d8659e6a">
 </p>
 
-- Haz clic en Capture/Forward. Haz clic en el segundo sobre PDU para abrirlo.Haz clic en la
-pestaña Outbound PDU Details y desplácese hacia abajo hasta la sección TCP.
-Pregunta:
-- ¿Se consideran confiables estas comunicaciones?
+3. Haz clic en Capture/Forward. Haz clic en el segundo sobre PDU para abrirlo.Haz clic en la
+pestaña Outbound PDU Details y desplácese hacia abajo hasta la sección TCP.<br>
 
- #### sí
-- Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE
-DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE
-RECONOCIMIENTO).
+**¿Se consideran confiables estas comunicaciones?**
+- Sí
 
+4. Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE RECONOCIMIENTO).
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/c78eff0b-f8ac-4187-906f-13fcab1d27c0" height="300">
 </p>
 
+**¿Cuál es el valor en el campo de bandera?**
+- 0b00000010
 
-Pregunta:
--¿Cuál es el valor en el campo de bandera?
-
-####  0b00000010
-- Cierra la PDU y haz clic en Capture/Forward hasta que una PDU vuelva a FTP Client con
+5. Cierra la PDU y haz clic en Capture/Forward hasta que una PDU vuelva a FTP Client con
 una marca de verificación.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/df3f33d2-cc70-4c60-9d9d-48c9af041d6a" >
 </p>
 
-- Cierra el sobre de PDU y seleccione Inbound PDU Details.
+6. Cierra el sobre de PDU y seleccione Inbound PDU Details.<br>
   
--Pregunta:
-   -¿En qué cambiaron los números de puerto y de secuencia?
-  
-   #### se invitieron el source y dest, así como un cambio en un dígito de la FLAG
+**¿En qué cambiaron los números de puerto y de secuencia?**
+- Se invitieron el source y dest, así como un cambio en un dígito de la FLAG
     
-- Haz clic en la ficha de detalles de la PDU saliente.
--Pregunta:
--¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores?
-  <p align="center">
-    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e8e4e7e5-d2f8-4254-9944-92ede7b5f4aa" height="300">
-  </p>
+7. Haz clic en la ficha de detalles de la PDU saliente.<br>
 
+**¿En qué se diferencian los números de puerto y secuencia de los resultados anteriores?**
 
-- Cierra la PDU y haz clic en Capture/Forward hasta que una segunda PDU vuelva a FTP
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e8e4e7e5-d2f8-4254-9944-92ede7b5f4aa" height="300">
+</p>
+
+8. Cierra la PDU y haz clic en Capture/Forward hasta que una segunda PDU vuelva a FTP
 Client. La PDU es de un color diferente.
-- Abre la PDU y selecciona Inbound PDU Details. Desplázate hasta después de la sección
-TCP.
--Pregunta:
-- ¿Cuál es el mensaje del servidor?
 
-  #### El mensaje es "Message:Welcome to PT Ftp server "
-- Haz clic en Reset Simulation (Restablecer simulación).
-### 4 Examina el tráfico DNS cuando los clientes se comunican con el servidor.
-- Repita los pasos de la Parte 1 para crear tráfico DNS.
-- En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
+9. Abre la PDU y selecciona Inbound PDU Details. Desplázate hasta después de la sección
+TCP.<br>
+
+**¿Cuál es el mensaje del servidor?**
+- El mensaje es "Message:Welcome to PT Ftp server "
+  
+10. Haz clic en Reset Simulation (Restablecer simulación).
+
+### Examina el tráfico DNS cuando los clientes se comunican con el servidor.
+1. Repita los pasos de la Parte 1 para crear tráfico DNS.
+2. En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
 DNS y UDP.
-- Haz clic en el sobre de PDU para abrirlo.
-- Mire los detalles del modelo OSI para la PDU saliente.
-- Pregunta:
-- ¿Qué es el protocolo de capa 4?
-  Es el protocolo UDP
+3. Haz clic en el sobre de PDU para abrirlo.
+4. Mire los detalles del modelo OSI para la PDU saliente.
 
-- ¿Se consideran confiables estas comunicaciones?
+**¿Qué es el protocolo de capa 4?**
+- Es el protocolo UDP<br>
+
+**¿Se consideran confiables estas comunicaciones?**
+- No es confiable
   
-  No es confiable
-  
-- Abra la ficha Detalles de PDU saliente y busque la sección UDP de los formatos de PDU.
-- Registre los valores de SRC PORT y DEST PORT .
- 
-  <p align="center">
-    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/0ac88765-2188-4d82-8dc7-1df99bf04afb" >
-  </p>
+5. Abra la ficha Detalles de PDU saliente y busque la sección UDP de los formatos de PDU. Registre los valores de SRC PORT y DEST PORT .
 
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/0ac88765-2188-4d82-8dc7-1df99bf04afb" >
+</p>
 
-- Pregunta:
-- ¿Por qué no hay números de secuencia y reconocimiento?
-  Porque UDP, al no ser una conexión confiable, no necesita almacenar esos datos extra de seguridad
+**¿Por qué no hay números de secuencia y reconocimiento?**
+- Porque UDP, al no ser una conexión confiable, no necesita almacenar esos datos extra de seguridad
 
-- Cierre la PDU y haz clic en Capture/Forward hasta que una PDU con una marca de
+6. Cierre la PDU y haz clic en Capture/Forward hasta que una PDU con una marca de
 verificación regrese al DNS Client.
-- Cierra el sobre de PDU y seleccione Inbound PDU Details.
-- Pregunta:
-- ¿En qué cambiaron los números de puerto y de secuencia?
-  Se invirtieron al regresar y llegar desde un dispositivo diferente.
-  <p align="center">
-    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e26d2ed7-2c8e-42bc-b6c4-a2d41aec2a8b">
-  </p>
+7. Cierra el sobre de PDU y seleccione Inbound PDU Details.
 
+**¿En qué cambiaron los números de puerto y de secuencia?**
+- Se invirtieron al regresar y llegar desde un dispositivo diferente.
 
-- Haz clic en Reset Simulation (Restablecer simulación).
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/e26d2ed7-2c8e-42bc-b6c4-a2d41aec2a8b">
+</p>
 
-### 4 Examina el tráfico de correo electrónico cuando los clientes se comunican con el servidor
-- Repite los pasos de la Parte 1 para enviar un correo electrónico a user@multiserver.pt.ptu.
-- En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
+8. Haz clic en Reset Simulation (Restablecer simulación).
+
+### Examina el tráfico de correo electrónico cuando los clientes se comunican con el servidor
+1. Repite los pasos de la Parte 1 para enviar un correo electrónico a user@multiserver.pt.ptu.
+2. En el panel de simulación, modifique las opciones de Edit Filters para que solo se muestren
 POP3, SMTP y TCP.
-- Haz clic en el primer sobre de la PDU para abrirlo.
-- Haz clic en la pestaña Outbound PDU Details y desplácese hacia abajo hasta la última
+3. Haz clic en el primer sobre de la PDU para abrirlo.
+4. Haz clic en la pestaña Outbound PDU Details y desplácese hacia abajo hasta la última
 sección.
+
 <p align="center">
     <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/7ce12f92-96cf-4768-8b63-82ff9346a84f">
 </p>
 
+**¿Qué protocolo de la capa de transporte utiliza el tráfico de correo electrónico? ¿Se
+consideran confiables estas comunicaciones?**
+- Usa TCP, que, como hemos visto anteriormente, es seguro debido a los valores extra que se guardan
 
--Preguntas:
--¿Qué protocolo de la capa de transporte utiliza el tráfico de correo electrónico? ¿Se
-consideran confiables estas comunicaciones?
-
-#### Usa TCP, que, como hemos visto anteriormente, es seguro debido a los valores extra que se guardan
-
-- Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE
+5. Registra los valores de SRC PORT (PUERTO DE ORIGEN), DEST PORT (PUERTO DE
 DESTINO), SEQUENCE NUM (NÚMERO DE SECUENCIA) y ACK NUM (NÚMERO DE
 RECONOCIMIENTO). ¿Cuál es el valor del campo de bandera?
+
 <p align="center">
     <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/f7aec8ea-8b86-492a-822e-1ada7a53530b">
 </p>
 
-
-
-- Cierra la PDU y haz clic en Capture/Forward hasta que una PDU regrese al E-Mail Client
+6. Cierra la PDU y haz clic en Capture/Forward hasta que una PDU regrese al E-Mail Client
 con una marca de verificación.
-- Haz clic en el sobre TCP PDU y seleccione Inbound PDU Details.
--Pregunta:
--¿En qué cambiaron los números de puerto y de secuencia?
+7. Haz clic en el sobre TCP PDU y seleccione Inbound PDU Details.
+
+**¿En qué cambiaron los números de puerto y de secuencia?**
 
 <p align="center">
     <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/861434d7-eda3-42d1-a333-f54d0503e104" height="150">
     <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/4c384b2c-3a85-4262-b2e8-f17e3906f9a4" height="150">
 </p>
 
+8. Haz clic en la ficha de detalles de la PDU saliente. **¿En qué se diferencian los números de
+puerto y de secuencia con respecto a los dos resultados anteriores?**
+- En el sq number, puesto que implementa, además de SYN, ACK
 
-
-- Haz clic en la ficha de detalles de la PDU saliente. ¿En qué se diferencian los números de
-puerto y de secuencia con respecto a los dos resultados anteriores?
-En el sq number, puesto que implementa, además de SYN, ACK
-
-- Hay una segunda PDU de un color diferente que E-Mail Client hha preparado para enviar a
+9. Hay una segunda PDU de un color diferente que E-Mail Client hha preparado para enviar a
 MultiServer. Este es el comienzo de la comunicación de correo electrónico. Haz clic en este
 segundo sobre de PDU y seleccione Outbound PDU Details.
-- Preguntas:
-- ¿En qué se diferencian los números de puerto y de secuencia con respecto a las dos PDU
-anteriores?
-en el valor de la FLAG (0b00011000)
-- ¿Qué protocolo de correo electrónico se relaciona con el puerto TCP 25? ¿Qué protocolo se
-relaciona con el puerto TCP 110?
 
-con el TCP25, asociamos el protocolo SMTP (Protocolo Simple de Transferencia de Correo) y con el puerto TCP110, el protocolo POP3 (Post Office Protocol)
+**¿En qué se diferencian los números de puerto y de secuencia con respecto a las dos PDU
+anteriores?**
+- En el valor de la FLAG (0b00011000)
+
+**¿Qué protocolo de correo electrónico se relaciona con el puerto TCP 25? ¿Qué protocolo se
+relaciona con el puerto TCP 110?**
+- Con el TCP25, asociamos el protocolo SMTP (Protocolo Simple de Transferencia de Correo) y con el puerto TCP110, el protocolo POP3 (Post Office Protocol).
