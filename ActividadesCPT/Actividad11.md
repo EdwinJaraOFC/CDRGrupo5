@@ -25,7 +25,13 @@ Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de 
 
 ### 3. Propone una solución usando Anycast para optimizar la entrega de contenido. ¿Cómo funcionaría en este contexto?
 <p align="justify">
-El anycast es algo así como un compromiso entre un unicast y un multicast. Con anycast, hay varios destinos que comparten la misma dirección IP. Se envía un mensaje que posiblemente podría ir a cualquiera de estos destinos, pero siempre se enruta al destino más cercano. De esta forma, un anycast llegará a su destino en el menor tiempo posible. Si no mencionamos explícitamente la forma de comunicación, suponemos que es unicast. 
+Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.
+
+Ventajas de Anycast sobre Multicast en este caso:
+
+- **Reducción de la latencia:** Anycast dirige las solicitudes de los usuarios al servidor más cercano geográficamente, lo que reduce significativamente la latencia en comparación con la difusión de datos a través de multicast a través de la red.
+- **Mayor control y escalabilidad:** Anycast permite una mayor flexibilidad y control al dirigir las solicitudes de los usuarios a servidores específicos, lo que facilita la escalabilidad y la gestión de la red en comparación con multicast, que puede ser más difícil de controlar en entornos grandes y complejos.
+- **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
 </p>
 
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
