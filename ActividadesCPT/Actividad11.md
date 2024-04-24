@@ -11,7 +11,6 @@
 Para acceder al cache desde un ordenador primero busca en el caché local en lugar de volver a preguntar al servidor,el caché permite  almacenar los datos previamente cargados para un acceso más rápido, pues cuando no se encuentra el caché local este envía una consulta al solucionador DNS para comprobar su caché y en caso que este no encuentre una ip que coincida con el host este envía una consulta a su servidor de DNS preferido y en caso de no recibir respuesta por un tiempo determinado este consultara a un servidor dns alternativo.<br><br>
 Una manera de mejorar el rendimiento sería usar la delegación de esta manera se podría regular el tráfico entrante a los servidores DNS. Estos servidores caché se colocarán en diferentes áreas por ejemplo distritos que luego pasan la información a un servidor de ciudad para luego a la del país de esta manera disminuye el tráfico en los servidores.
 </p>
-
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2386f393-a62b-4b7e-9638-b6c843990693">
 </p>
