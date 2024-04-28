@@ -4,7 +4,10 @@
 </p>
 
 ## Problema 2: Optimización de protocolos y caché
+<p align="justify">
+  
 **Escenario:** Una empresa de streaming de video experimenta interrupciones frecuentes en la entrega de contenido a los clientes. La infraestructura actual utiliza multicast para distribuir contenido, pero aún enfrenta problemas de latencia y pérdida de paquetes. 
+</p>
 
 ### 1. Explica cómo mejorarías el rendimiento utilizando técnicas de caché de red. ¿Dónde colocarías estos cachés y por qué?
 <p align="justify">
