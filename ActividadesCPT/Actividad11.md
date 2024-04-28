@@ -60,6 +60,7 @@ Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de 
 <p align="justify">
 Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión de video, debido a la menor sobrecarga de UDP.<br><br>
 Discusión:<br>
+  
 ● Explica las ventajas de usar UDP sobre TCP para streaming de video, considerando las características de ambos protocolos.<br>
 ● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y cómo mitigarlos.
 </p>
