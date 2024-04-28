@@ -139,7 +139,7 @@ class AnycastService:
       G.add_edge("192.168.1.100", server, weight=distance)
 
     # Dibujamos el grafo
-    pos = nx.spring_layout(G)
+    pos = nx.spring_layout(G) # Podemos usar diferentes grafos: circular_layout, random_layout, shell_layout
     nx.draw(G, pos, with_labels=True, node_size=3500, node_color="skyblue", font_size=10, font_weight="bold")
     labels = nx.get_edge_attributes(G, 'weight')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
