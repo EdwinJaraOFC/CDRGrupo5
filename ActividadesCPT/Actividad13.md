@@ -15,7 +15,8 @@ Vamos a configurar un servidor LDAP y proporcionar acceso a él a través de un 
 </p>
 
 #### Código python para la configuración de SSH y LDAP
-
+```
+```
 ### Paso 2: Implementación de seguridad
 <p align="justify">
 Usaremos SSL/TLS para cifrar la comunicación LDAP. Además, configuraremos certificados autofirmados para asegurar la comunicación entre el cliente y el servidor LDAP a través del túnel SSH.
