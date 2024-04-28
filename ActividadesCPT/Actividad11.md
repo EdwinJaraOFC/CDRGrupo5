@@ -95,6 +95,10 @@ anycast = AnycastService()
 nearest_server = anycast.get_nearest_server("192.168.1.100")
 print(f"Nearest server for user is {nearest_server}")
 ```
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/7fb0aa24-a215-4f50-8b96-4e488ccc0a57">
+</p>
+
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
 <p align="justify">
 Mientras más caché se almacene en el dispositivo, más información para el acceso rápido tendrá el usuario, para así evitar requests constantes al servidor. Sin embargo, también tomará espacio significativo en el almacenamiento del usuario o en la capacidad del proxy intermediario para retener esta información en pro de una conexión más rápida con los datos almacenados de las páginas web usadas con frecuencia.<br><br>
