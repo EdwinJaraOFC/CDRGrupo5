@@ -66,13 +66,11 @@ Discusión:<br>
 
 ### 3. Propone una solución usando Anycast para optimizar la entrega de contenido. ¿Cómo funcionaría en este contexto?
 <p align="justify">
-Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.
-
-Ventajas de Anycast sobre Multicast en este caso:
-
-- **Reducción de la latencia:** Anycast dirige las solicitudes de los usuarios al servidor más cercano geográficamente, lo que reduce significativamente la latencia en comparación con la difusión de datos a través de multicast a través de la red.
-- **Mayor control y escalabilidad:** Anycast permite una mayor flexibilidad y control al dirigir las solicitudes de los usuarios a servidores específicos, lo que facilita la escalabilidad y la gestión de la red en comparación con multicast, que puede ser más difícil de controlar en entornos grandes y complejos.
-- **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
+Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.<br>
+Ventajas de Anycast sobre Multicast en este caso:<br>
+● **Reducción de la latencia:** Anycast dirige las solicitudes de los usuarios al servidor más cercano geográficamente, lo que reduce significativamente la latencia en comparación con la difusión de datos a través de multicast a través de la red.
+● **Mayor control y escalabilidad:** Anycast permite una mayor flexibilidad y control al dirigir las solicitudes de los usuarios a servidores específicos, lo que facilita la escalabilidad y la gestión de la red en comparación con multicast, que puede ser más difícil de controlar en entornos grandes y complejos.
+● **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
 </p>
 <p align="center">
     <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/29ab9300-048e-4da4-8737-82f4388e03d0">
@@ -169,6 +167,6 @@ Un posible modelo útil para el cálculo del efecto que tiene el caché en la re
 
 #### Monitorización y análisis
 <p align="justify">
-Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la eficacia de las estrategias implementadas, usando herramientas como Wireshark para analizar el tráfico de red.
+Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la eficacia de las estrategias implementadas, usando herramientas como Wireshark para analizar el tráfico de red.<br>
 ● Usa wireshark para capturar paquetes de red y analiza el tráfico específico de video para identificar patrones de uso y posibles cuellos de botella.
 </p>
