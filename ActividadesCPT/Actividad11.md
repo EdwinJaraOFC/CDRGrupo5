@@ -152,9 +152,9 @@ print(f"Nearest server for user is {nearestServer}")
 anycast.drawNetwork()
 ```
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/03cb8c8b-01af-4255-8d54-b4a40e30dbc7" width="350px">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/92b25778-eb10-4ade-b931-46bc64e22899" width="350px">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/c11e3098-957d-49bc-8159-ff02dba00282" width="350px">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/03cb8c8b-01af-4255-8d54-b4a40e30dbc7" width="333px">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/92b25778-eb10-4ade-b931-46bc64e22899" width="333px">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/c11e3098-957d-49bc-8159-ff02dba00282" width="333px">
 </div>
 
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
