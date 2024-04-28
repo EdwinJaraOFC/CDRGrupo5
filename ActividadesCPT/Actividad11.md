@@ -99,6 +99,59 @@ print(f"Nearest server for user is {nearest_server}")
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/7fb0aa24-a215-4f50-8b96-4e488ccc0a57">
 </p>
 
+#### Implementación de anycast con Python, ahora asignando distancias del servidor principal a los demás servidores de manera aleatoria y graficando el grafo
+```
+import random
+import networkx as nx
+import matplotlib.pyplot as plt
+
+class AnycastService:
+  def __init__(self):
+    self.servers = ['192.168.1.1', '192.168.2.1', '192.168.3.1']
+    # Inicializamos la matriz de distancias desde "192.168.1.100" a los servidores
+    self.distances = {}
+    self.distances["192.168.1.100"] = {}
+    for server in self.servers:
+      distance = random.randint(1, 10)
+      self.distances["192.168.1.100"][server] = distance
+
+  def getNearestServer(self, userIP):
+    minDistance = float('inf')
+    nearestServer = None
+
+    # Iteramos sobre los servidores para encontrar el más cercano
+    for server in self.servers:
+      distance = self.distances[userIP].get(server, float('inf'))
+      if distance < minDistance:
+        minDistance = distance
+        nearestServer = server
+    return nearestServer
+
+  def drawNetwork(self):
+    G = nx.DiGraph()
+
+    # Agregamos nodos
+    G.add_nodes_from(self.servers)
+    G.add_node("192.168.1.100")
+
+    # Agregamos distancias
+    for server, distance in self.distances["192.168.1.100"].items():
+      G.add_edge("192.168.1.100", server, weight=distance)
+
+    # Dibujamos el grafo
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_size=1500, node_color="skyblue", font_size=10, font_weight="bold")
+    labels = nx.get_edge_attributes(G, 'weight')
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
+    plt.title("Anycast Network")
+    plt.show()
+
+anycast = AnycastService()
+nearestServer = anycast.getNearestServer("192.168.1.100")
+print(f"Nearest server for user is {nearestServer}")
+anycast.drawNetwork()
+```
+
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
 <p align="justify">
 Mientras más caché se almacene en el dispositivo, más información para el acceso rápido tendrá el usuario, para así evitar requests constantes al servidor. Sin embargo, también tomará espacio significativo en el almacenamiento del usuario o en la capacidad del proxy intermediario para retener esta información en pro de una conexión más rápida con los datos almacenados de las páginas web usadas con frecuencia.<br><br>
