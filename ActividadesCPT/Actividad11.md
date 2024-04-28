@@ -87,9 +87,9 @@ import random
 class AnycastService:
   def __init__(self):
     self.servers = ['192.168.1.1', '192.168.2.1', '192.168.3.1']
-def get_nearest_server(self, user_ip):
-  # Simula la selección del servidor más cercano (simplificado)
-  return random.choice(self.servers)
+  def get_nearest_server(self, user_ip):
+    # Simula la selección del servidor más cercano (simplificado)
+    return random.choice(self.servers)
 # Ejemplo de uso
 anycast = AnycastService()
 nearest_server = anycast.get_nearest_server("192.168.1.100")
