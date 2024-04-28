@@ -15,38 +15,7 @@ Una manera de mejorar el rendimiento sería usar la delegación de esta manera s
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/b837e371-bde3-4a07-83b2-0eabe4048399">
 </p>
 
-### 2. ¿Cómo afecta el protocolo de transporte al rendimiento del streaming de video? Considera TCP vs UDP y justifica tu elección.
-<p align="justify">
-Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de streaming con protocolos lentos, pero seguros, puede presentar interrupciones en la reproducción del video. Se usa UDP principalmente, porque presenta una mayor velocidad de envío, puesto que, comparado al TCP, no se almacenan tantas variables como con el segundo tipo de conexión mencionado (el número de FLAG, números de secuencia, etc.) y no establece tantas conexiones. 
-</p>
-<p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/8ee58a94-f39e-4337-8a82-e4b039f21670">
-</p>
-
-### 3. Propone una solución usando Anycast para optimizar la entrega de contenido. ¿Cómo funcionaría en este contexto?
-<p align="justify">
-Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.
-
-Ventajas de Anycast sobre Multicast en este caso:
-
-- **Reducción de la latencia:** Anycast dirige las solicitudes de los usuarios al servidor más cercano geográficamente, lo que reduce significativamente la latencia en comparación con la difusión de datos a través de multicast a través de la red.
-- **Mayor control y escalabilidad:** Anycast permite una mayor flexibilidad y control al dirigir las solicitudes de los usuarios a servidores específicos, lo que facilita la escalabilidad y la gestión de la red en comparación con multicast, que puede ser más difícil de controlar en entornos grandes y complejos.
-- **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
-</p>
-<p align="center">
-    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/29ab9300-048e-4da4-8737-82f4388e03d0">
-</p>
-
-### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
-<p align="justify">
-Mientras más caché se almacene en el dispositivo, más información para el acceso rápido tendrá el usuario, para así evitar requests constantes al servidor. Sin embargo, también tomará espacio significativo en el almacenamiento del usuario o en la capacidad del proxy intermediario para retener esta información en pro de una conexión más rápida con los datos almacenados de las páginas web usadas con frecuencia.<br><br>
-Un posible modelo útil para el cálculo del efecto que tiene el caché en la reducción de latencia, sería, una vez implementado, sería la comparación directa entre el tiempo en envío y recepción de paquetes con y sin la aplicación de las técnicas de memoria caché.
-</p>
-<p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/551f20ea-e0c7-4fbc-9912-55862ff5ffd6">
-</p>
-
-Parte 1: Implementación de caché de red con Python
+#### Implementación de caché de red con Python
 Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y
 recuperar videos solicitados frecuentemente para reducir la latencia y la carga en el servidor
 principal.
@@ -74,7 +43,16 @@ cache = VideoCache()
 video = cache.get_video("video1234")
 print(video) # Primera vez descarga, segunda vez desde caché
 video = cache.get_video("video1234")
-Parte 2: Selección del protocolo de transporte
+
+### 2. ¿Cómo afecta el protocolo de transporte al rendimiento del streaming de video? Considera TCP vs UDP y justifica tu elección.
+<p align="justify">
+Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de streaming con protocolos lentos, pero seguros, puede presentar interrupciones en la reproducción del video. Se usa UDP principalmente, porque presenta una mayor velocidad de envío, puesto que, comparado al TCP, no se almacenan tantas variables como con el segundo tipo de conexión mencionado (el número de FLAG, números de secuencia, etc.) y no establece tantas conexiones. 
+</p>
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/8ee58a94-f39e-4337-8a82-e4b039f21670">
+</p>
+
+#### Selección del protocolo de transporte
 Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión
 de video, debido a la menor sobrecarga de UDP.
 Discusión:
@@ -82,7 +60,22 @@ Discusión:
 las características de ambos protocolos.
 ● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y
 cómo mitigarlos.
-Parte 3: Implementación de anycast con Python
+
+### 3. Propone una solución usando Anycast para optimizar la entrega de contenido. ¿Cómo funcionaría en este contexto?
+<p align="justify">
+Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.
+
+Ventajas de Anycast sobre Multicast en este caso:
+
+- **Reducción de la latencia:** Anycast dirige las solicitudes de los usuarios al servidor más cercano geográficamente, lo que reduce significativamente la latencia en comparación con la difusión de datos a través de multicast a través de la red.
+- **Mayor control y escalabilidad:** Anycast permite una mayor flexibilidad y control al dirigir las solicitudes de los usuarios a servidores específicos, lo que facilita la escalabilidad y la gestión de la red en comparación con multicast, que puede ser más difícil de controlar en entornos grandes y complejos.
+- **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
+</p>
+<p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/29ab9300-048e-4da4-8737-82f4388e03d0">
+</p>
+
+#### Implementación de anycast con Python
 Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de
 caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la
 implementación real de anycast se manejaría a un nivel más bajo en la red.
@@ -97,7 +90,17 @@ return random.choice(self.servers)
 anycast = AnycastService()
 nearest_server = anycast.get_nearest_server("192.168.1.100")
 print(f"Nearest server for user is {nearest_server}")
-Parte 4: Monitorización y análisis
+
+### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
+<p align="justify">
+Mientras más caché se almacene en el dispositivo, más información para el acceso rápido tendrá el usuario, para así evitar requests constantes al servidor. Sin embargo, también tomará espacio significativo en el almacenamiento del usuario o en la capacidad del proxy intermediario para retener esta información en pro de una conexión más rápida con los datos almacenados de las páginas web usadas con frecuencia.<br><br>
+Un posible modelo útil para el cálculo del efecto que tiene el caché en la reducción de latencia, sería, una vez implementado, sería la comparación directa entre el tiempo en envío y recepción de paquetes con y sin la aplicación de las técnicas de memoria caché.
+</p>
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/551f20ea-e0c7-4fbc-9912-55862ff5ffd6">
+</p>
+
+#### Monitorización y análisis
 Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la
 eficacia de las estrategias implementadas, usando herramientas como Wireshark para
 analizar el tráfico de red.
