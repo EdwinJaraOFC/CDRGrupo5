@@ -82,18 +82,19 @@ Ventajas de Anycast sobre Multicast en este caso:
 Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de
 caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la
 implementación real de anycast se manejaría a un nivel más bajo en la red.
+```
 import random
 class AnycastService:
-def __init__(self):
-self.servers = ['192.168.1.1', '192.168.2.1', '192.168.3.1']
+  def __init__(self):
+    self.servers = ['192.168.1.1', '192.168.2.1', '192.168.3.1']
 def get_nearest_server(self, user_ip):
-# Simula la selección del servidor más cercano (simplificado)
-return random.choice(self.servers)
+  # Simula la selección del servidor más cercano (simplificado)
+  return random.choice(self.servers)
 # Ejemplo de uso
 anycast = AnycastService()
 nearest_server = anycast.get_nearest_server("192.168.1.100")
 print(f"Nearest server for user is {nearest_server}")
-
+```
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
 <p align="justify">
 Mientras más caché se almacene en el dispositivo, más información para el acceso rápido tendrá el usuario, para así evitar requests constantes al servidor. Sin embargo, también tomará espacio significativo en el almacenamiento del usuario o en la capacidad del proxy intermediario para retener esta información en pro de una conexión más rápida con los datos almacenados de las páginas web usadas con frecuencia.<br><br>
