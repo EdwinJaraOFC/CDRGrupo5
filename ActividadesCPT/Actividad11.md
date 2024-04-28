@@ -19,10 +19,11 @@ Una manera de mejorar el rendimiento sería usar la delegación de esta manera s
 </p>
 
 #### Implementación de caché de red con Python
-Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y
-recuperar videos solicitados frecuentemente para reducir la latencia y la carga en el servidor
-principal.
-Código Python:
+<p align="justify">
+Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y recuperar videos solicitados frecuentemente para reducir la latencia y la carga en el servidor principal.
+</p>
+
+```
 class VideoCache:
 def __init__(self):
 self.cache = {}
@@ -46,7 +47,7 @@ cache = VideoCache()
 video = cache.get_video("video1234")
 print(video) # Primera vez descarga, segunda vez desde caché
 video = cache.get_video("video1234")
-
+```
 ### 2. ¿Cómo afecta el protocolo de transporte al rendimiento del streaming de video? Considera TCP vs UDP y justifica tu elección.
 <p align="justify">
 Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de streaming con protocolos lentos, pero seguros, puede presentar interrupciones en la reproducción del video. Se usa UDP principalmente, porque presenta una mayor velocidad de envío, puesto que, comparado al TCP, no se almacenan tantas variables como con el segundo tipo de conexión mencionado (el número de FLAG, números de secuencia, etc.) y no establece tantas conexiones. 
@@ -56,13 +57,12 @@ Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de 
 </p>
 
 #### Selección del protocolo de transporte
-Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión
-de video, debido a la menor sobrecarga de UDP.
-Discusión:
-● Explica las ventajas de usar UDP sobre TCP para streaming de video, considerando
-las características de ambos protocolos.
-● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y
-cómo mitigarlos.
+<p align="justify">
+Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión de video, debido a la menor sobrecarga de UDP.<br>
+Discusión:<br>
+● Explica las ventajas de usar UDP sobre TCP para streaming de video, considerando las características de ambos protocolos.
+● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y cómo mitigarlos.
+</p>
 
 ### 3. Propone una solución usando Anycast para optimizar la entrega de contenido. ¿Cómo funcionaría en este contexto?
 <p align="justify">
@@ -79,9 +79,10 @@ Ventajas de Anycast sobre Multicast en este caso:
 </p>
 
 #### Implementación de anycast con Python
-Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de
-caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la
-implementación real de anycast se manejaría a un nivel más bajo en la red.
+<p align="justify">
+Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la implementación real de anycast se manejaría a un nivel más bajo en la red.
+</p>
+
 ```
 import random
 class AnycastService:
@@ -167,11 +168,7 @@ Un posible modelo útil para el cálculo del efecto que tiene el caché en la re
 </p>
 
 #### Monitorización y análisis
-Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la
-eficacia de las estrategias implementadas, usando herramientas como Wireshark para
-analizar el tráfico de red.
-Comunicación de Datos y Redes
-Departamento Académico de Ingeniería
-C8280 -Comunicación de Datos y Redes
-● Usa wireshark para capturar paquetes de red y analiza el tráfico específico de video
-para identificar patrones de uso y posibles cuellos de botella.
+<p align="justify">
+Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la eficacia de las estrategias implementadas, usando herramientas como Wireshark para analizar el tráfico de red.
+● Usa wireshark para capturar paquetes de red y analiza el tráfico específico de video para identificar patrones de uso y posibles cuellos de botella.
+</p>
