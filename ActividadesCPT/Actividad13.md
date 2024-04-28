@@ -22,6 +22,9 @@ Vamos a configurar un servidor LDAP y proporcionar acceso a él a través de un 
 Usaremos SSL/TLS para cifrar la comunicación LDAP. Además, configuraremos certificados autofirmados para asegurar la comunicación entre el cliente y el servidor LDAP a través del túnel SSH.
 </p>
 
+#### Código Python para la generación de certificados autofirmados
+```
+```
 ### Paso 3: Evaluación de seguridad
 <p align="justify">
 Discutir cómo evaluar la seguridad del sistema implementado, abordando potenciales vulnerabilidades como ataques de intermediario y configuraciones erróneas de certificados. La evaluación incluirá pruebas de penetración y revisión de configuraciones.
