@@ -45,3 +45,64 @@ Un posible modelo útil para el cálculo del efecto que tiene el caché en la re
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/551f20ea-e0c7-4fbc-9912-55862ff5ffd6">
 </p>
+
+Parte 1: Implementación de caché de red con Python
+Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y
+recuperar videos solicitados frecuentemente para reducir la latencia y la carga en el servidor
+principal.
+Código Python:
+class VideoCache:
+def __init__(self):
+self.cache = {}
+def get_video(self, video_id):
+if video_id in self.cache:
+print(f"Video {video_id} retrieved from cache")
+return self.cache[video_id]
+else:
+print(f"Video {video_id} not in cache, downloading...")
+video_data = self.download_video(video_id)
+Comunicación de Datos y Redes
+Departamento Académico de Ingeniería
+C8280 -Comunicación de Datos y Redes
+self.cache[video_id] = video_data
+return video_data
+def download_video(self, video_id):
+# Simula la descarga del video desde un servidor remoto
+return f"Video data for {video_id}"
+# Ejemplo de uso
+cache = VideoCache()
+video = cache.get_video("video1234")
+print(video) # Primera vez descarga, segunda vez desde caché
+video = cache.get_video("video1234")
+Parte 2: Selección del protocolo de transporte
+Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión
+de video, debido a la menor sobrecarga de UDP.
+Discusión:
+● Explica las ventajas de usar UDP sobre TCP para streaming de video, considerando
+las características de ambos protocolos.
+● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y
+cómo mitigarlos.
+Parte 3: Implementación de anycast con Python
+Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de
+caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la
+implementación real de anycast se manejaría a un nivel más bajo en la red.
+import random
+class AnycastService:
+def __init__(self):
+self.servers = ['192.168.1.1', '192.168.2.1', '192.168.3.1']
+def get_nearest_server(self, user_ip):
+# Simula la selección del servidor más cercano (simplificado)
+return random.choice(self.servers)
+# Ejemplo de uso
+anycast = AnycastService()
+nearest_server = anycast.get_nearest_server("192.168.1.100")
+print(f"Nearest server for user is {nearest_server}")
+Parte 4: Monitorización y análisis
+Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la
+eficacia de las estrategias implementadas, usando herramientas como Wireshark para
+analizar el tráfico de red.
+Comunicación de Datos y Redes
+Departamento Académico de Ingeniería
+C8280 -Comunicación de Datos y Redes
+● Usa wireshark para capturar paquetes de red y analiza el tráfico específico de video
+para identificar patrones de uso y posibles cuellos de botella.
