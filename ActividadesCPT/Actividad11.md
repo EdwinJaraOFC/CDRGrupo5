@@ -34,6 +34,8 @@ Ventajas de Anycast sobre Multicast en este caso:
 - **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
 </p>
 
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/dbfea90a-bf3e-48dc-8038-a0f373ce7592)
+
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
 <p align="justify">
 Mientras más caché se almacene en el dispositivo, más información para el acceso rápido tendrá el usuario, para así evitar requests constantes al servidor. Sin embargo, también tomará espacio significativo en el almacenamiento del usuario o en la capacidad del proxy intermediario para retener esta información en pro de una conexión más rápida con los datos almacenados de las páginas web usadas con frecuencia.<br><br>
