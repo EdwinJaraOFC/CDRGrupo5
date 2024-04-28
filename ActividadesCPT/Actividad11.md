@@ -33,8 +33,9 @@ Ventajas de Anycast sobre Multicast en este caso:
 - **Mayor control y escalabilidad:** Anycast permite una mayor flexibilidad y control al dirigir las solicitudes de los usuarios a servidores específicos, lo que facilita la escalabilidad y la gestión de la red en comparación con multicast, que puede ser más difícil de controlar en entornos grandes y complejos.
 - **Menor impacto en la red:** Anycast solo envía datos al servidor más cercano, lo que reduce la carga en la red en comparación con multicast, que puede generar tráfico adicional al enviar datos a múltiples destinos simultáneamente.
 </p>
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/dbfea90a-bf3e-48dc-8038-a0f373ce7592)
+<p align="center">
+    <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/29ab9300-048e-4da4-8737-82f4388e03d0">
+</p>
 
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
 <p align="justify">
