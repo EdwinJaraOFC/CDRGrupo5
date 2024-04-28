@@ -99,7 +99,7 @@ print(f"Nearest server for user is {nearest_server}")
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/7fb0aa24-a215-4f50-8b96-4e488ccc0a57">
 </p>
 
-#### Implementación de anycast con Python, ahora asignando distancias del servidor principal a los demás servidores de manera aleatoria y graficando el grafo
+#### Implementación de anycast con Python, ahora asignando distancias del servidor principal a los demás servidores de manera aleatoria y mostrando un grafo
 ```
 import random
 import networkx as nx
@@ -140,7 +140,7 @@ class AnycastService:
 
     # Dibujamos el grafo
     pos = nx.spring_layout(G)
-    nx.draw(G, pos, with_labels=True, node_size=1500, node_color="skyblue", font_size=10, font_weight="bold")
+    nx.draw(G, pos, with_labels=True, node_size=3500, node_color="skyblue", font_size=10, font_weight="bold")
     labels = nx.get_edge_attributes(G, 'weight')
     nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
     plt.title("Anycast Network")
@@ -151,6 +151,11 @@ nearestServer = anycast.getNearestServer("192.168.1.100")
 print(f"Nearest server for user is {nearestServer}")
 anycast.drawNetwork()
 ```
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/03cb8c8b-01af-4255-8d54-b4a40e30dbc7" width="300px">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/92b25778-eb10-4ade-b931-46bc64e22899" width="300px">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/c11e3098-957d-49bc-8159-ff02dba00282" width="300px">
+</div>
 
 ### 4. Desarrolla un modelo simplificado para calcular el efecto de la caché en la reducción de latencia. 
 <p align="justify">
