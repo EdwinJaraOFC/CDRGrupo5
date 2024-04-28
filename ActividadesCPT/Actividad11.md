@@ -58,7 +58,7 @@ Afecta en las velocidades de carga y tiempo de respuesta, porque un servicio de 
 
 #### Selección del protocolo de transporte
 <p align="justify">
-Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión de video, debido a la menor sobrecarga de UDP.<br>
+Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la transmisión de video, debido a la menor sobrecarga de UDP.<br><br>
 Discusión:<br>
 ● Explica las ventajas de usar UDP sobre TCP para streaming de video, considerando las características de ambos protocolos.
 ● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y cómo mitigarlos.
@@ -66,7 +66,7 @@ Discusión:<br>
 
 ### 3. Propone una solución usando Anycast para optimizar la entrega de contenido. ¿Cómo funcionaría en este contexto?
 <p align="justify">
-Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.<br>
+Para optimizar la entrega de contenido, implementaremos Anycast. Configuraremos servidores Anycast en ubicaciones estratégicas para abordar los problemas de latencia y pérdida de datos. Cuando los usuarios soliciten contenido, sus solicitudes serán dirigidas automáticamente al servidor Anycast más cercano y eficiente en la red, garantizando una entrega optimizada del contenido.<br><br>
 Ventajas de Anycast sobre Multicast en este caso:<br>
   
 ● **Reducción de la latencia:** Anycast dirige las solicitudes de los usuarios al servidor más cercano geográficamente, lo que reduce significativamente la latencia en comparación con la difusión de datos a través de multicast a través de la red.<br>
