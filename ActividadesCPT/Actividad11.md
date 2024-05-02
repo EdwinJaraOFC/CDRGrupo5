@@ -80,7 +80,8 @@ Discusión:<br>
 - La principal ventaja del UDP sobre el TCP es su menor latencia a comparacion del TCP ya que este ultimo trasfiere mayor cantidad de datos y es mas segura mientras que el UDP podra ser mas rapido pero no garantiza la llegada de la informacion. Todo esto se debe a que TCP antes de enviar los datos establece y verifica la conexion mientras que el UDP no lo hace , esto puede llevar a que los datos no terminen llegando al destino.
 
 ● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y cómo mitigarlos.
--Con ya se menciono antes, el UDP a pesar de ser mas rapido y presentar menor latencia 
+
+- Con ya se menciono antes, el UDP a pesar de ser mas rapido y presentar menor latencia puede presentar problemas de confiabilidad ya que no asegura que los datos lleguen , pero en el contexto de una compañia de streming este puede tolerar cierta pedida de informacion como flujo de audio y videos .Por otro lado el TCP al establecer una coneccion antes de enviar la infomacion este presenta un mayor latencia pero al mismo tiempo se asegura que la informacion llegue a su destino  aumetando su confiabilidad.Una manea de mitigar los problemas de confiabilidad de UPD seria implementar estrategias como FEC (Forward Error Correction) implica enviar información redundante junto con los datos originales, lo que permite al receptor reconstruir los datos perdidos sin necesidad de solicitar la retransmisión de los paquetes.
 
 </p>
 
