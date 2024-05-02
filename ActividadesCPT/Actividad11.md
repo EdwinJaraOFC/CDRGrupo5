@@ -20,7 +20,7 @@ Una manera de mejorar el rendimiento sería usar la delegación de esta manera s
 
 #### Implementación de caché de red con Python
 <p align="justify">
-Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y recuperar videos solicitados frecuentemente para reducir la latencia y la carga en el servidor principal.
+Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y recuperar videos solicitados frecuentemente para reducir la latencia y la carga en el servidor principal. Para la elección del servidor del que descargar los datos, llamamos a la función Anycast que será definida y explicada a profundidad más adelante, pero de momento nos servirá para poder representar la descarga de archivos desde el servidor más cercano.
 </p>
 
 ```
