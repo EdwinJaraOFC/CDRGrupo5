@@ -62,6 +62,7 @@ Exploraremos cómo usar UDP en lugar de TCP para mejorar la eficiencia de la tra
 Discusión:<br>
   
 ● Explica las ventajas de usar UDP sobre TCP para streaming de video, considerando las características de ambos protocolos.<br>
+- La principal ventaja del UDP sobre el TCP es su menor latencia a comparacion del TCP ya que este ultimo trasfiere mayor cantidad de datos y es mas segura mientras que el UDP podra ser mas rapido pero no garantiza la llegada de la informacion. Todo esto se debe a que TCP antes de enviar los datos establece y verifica la conexion mientras que el UDP no lo hace , esto puede llevar a que los datos no terminen llegando al destino.
 ● Analiza los posibles problemas de confiabilidad y orden de llegada de los paquetes y cómo mitigarlos.
 </p>
 
