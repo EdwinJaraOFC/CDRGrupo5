@@ -25,28 +25,43 @@ Usaremos Python para simular un sencillo sistema de caché que pueda almacenar y
 
 ```
 class VideoCache:
-def __init__(self):
-self.cache = {}
-def get_video(self, video_id):
-if video_id in self.cache:
-print(f"Video {video_id} retrieved from cache")
-return self.cache[video_id]
-else:
-print(f"Video {video_id} not in cache, downloading...")
-video_data = self.download_video(video_id)
-Comunicación de Datos y Redes
-Departamento Académico de Ingeniería
-C8280 -Comunicación de Datos y Redes
-self.cache[video_id] = video_data
-return video_data
-def download_video(self, video_id):
-# Simula la descarga del video desde un servidor remoto
-return f"Video data for {video_id}"
+  def __init__(self):
+    self.cache = {"perrito":"video de un perrito corriendo"}
+  def get_video(self, video_id):
+    if video_id in self.cache: # verificación de si el video se encuentra en el caché
+      print(f"Video {video_id} retrieved from cache")
+      print(self.cache) # imprimimos el diccionario de nuestro caché para confimara que se encuentre la información del video dentro
+      return self.cache[video_id]
+    else:
+      print(f"Video {video_id} not in cache, downloading...") # se simula la descarga del video una vez no encontrado en nuestro caché
+      video_data = self.download_video(video_id)
+      self.cache[video_id] = video_data
+      grafo = {
+    '192.168.1.1': {'or': 11},
+    '192.168.2.1': {'or': 3},
+    '192.168.3.1': {'or': 7},
+    'or':   {'192.168.1.1':11,'192.168.2.1':3,'192.168.3.1':7}
+    }
+      anycast = AnycastService()
+      s, distancia, previos = anycast.dijkstra(grafo,"or")
+      print(f"Se ha recibido el mensaje de {s[1]}")
+
+
+      return video_data
+
+  def download_video(self, video_id):
+
+    return f"Video data for {video_id}"
+
 # Ejemplo de uso
+#con el caché vacío
 cache = VideoCache()
 video = cache.get_video("video1234")
-print(video) # Primera vez descarga, segunda vez desde caché
-video = cache.get_video("video1234")
+print(video)
+
+video = cache.get_video("video1234") # en esta línea, volvemos a solicitar el video, pero
+#esta vez, ya se encuentra guardado en el caché, por lo que se obtiene directamente de ahí
+
 ```
 ### 2. ¿Cómo afecta el protocolo de transporte al rendimiento del streaming de video? Considera TCP vs UDP y justifica tu elección.
 <p align="justify">
@@ -84,7 +99,7 @@ Ventajas de Anycast sobre Multicast en este caso:<br>
 
 #### Implementación de anycast con Python
 <p align="justify">
-Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la implementación real de anycast se manejaría a un nivel más bajo en la red.
+Simularemos el uso de anycast para dirigir las solicitudes de los usuarios al servidor de caché más cercano utilizando Python. Este ejemplo es conceptual, ya que la implementación real de anycast se manejaría a un nivel más bajo en la red. En este caso, se elige el servidor de manera aleatoria con la función random.choice.
 </p>
 
 ```
