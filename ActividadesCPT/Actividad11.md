@@ -166,9 +166,3 @@ Un posible modelo útil para el cálculo del efecto que tiene el caché en la re
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/551f20ea-e0c7-4fbc-9912-55862ff5ffd6">
 </p>
-
-#### Monitorización y análisis
-<p align="justify">
-Proponer un sistema de monitoreo y análisis para evaluar el rendimiento de la red y la eficacia de las estrategias implementadas, usando herramientas como Wireshark para analizar el tráfico de red.<br>
-● Usa wireshark para capturar paquetes de red y analiza el tráfico específico de video para identificar patrones de uso y posibles cuellos de botella.
-</p>
